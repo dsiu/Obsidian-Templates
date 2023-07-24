@@ -2,8 +2,8 @@
 tags: type/post target/linkedin 
 # --- Learn more about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
 aliases:
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 published:
 # --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
 template-type: "Outline LinkedIn"
@@ -11,7 +11,7 @@ template-version: "1.7"
 # --- Find latest updates: https://github.com/groepl/Obsidian-Templates
 ---
 
-# {{Title}} - Post
+# <% tp.file.title %> - Post
 
 <!-- What remains to be done do get the final version? --> 
 - [ ] Prepare final version 

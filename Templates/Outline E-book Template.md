@@ -15,8 +15,8 @@ bar: <progress max=100 value=0></progress><br>0% first ideas
 # 40% front-loaded value, 50% high value-per-page, 60% value tested
 # 70% feedback received, 80% value improved, 90% finally polished, 100% recommended
 # --- Install plugin: https://github.com/blacksmithgu/obsidian-dataview
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 published:
 # --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
 template_type: Ebook
@@ -24,7 +24,7 @@ template_version: "1.9"
 # --- Find latest updates: https://github.com/groepl/Obsidian-Templates
 ---
 
-# {{Title}}
+# <% tp.file.title %>
 
 ```dataviewjs 
 var progress_bar = (dv.current().bar);

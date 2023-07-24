@@ -13,11 +13,9 @@ category: {{category}}
 publisher: {{publisher}}
 publish_date: {{publishDate}}
 total_page: {{totalPage}}
-isbn: {{isbn10}} {{isbn1#template-variable-definition}}
+isbn: {{isbn10}} {{isbn13}}
 cover_url: {{coverUrl}}
 cover_small_url: {{cover_small_url}}
-isbn13: {{isbn13}}
-isbn10: {{isbn10}}
 description:
 link: {{link}}
 preview_link: {{preview_link}}
@@ -27,8 +25,8 @@ date:
 read: 
 status: undefined
 # --- status: backlog, to read, reading, completed, stopped
-created: {{DATE:YYYY-MM-DD, HH:mm}}
-modified: {{DATE:YYYY-MM-DD, HH:mm}}
+created_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
+modified_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
 # --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
 template-type: Book
 template-version: "1.7"
@@ -37,7 +35,7 @@ template-version: "1.7"
 
 ![cover|150]({{coverUrl}})
 
-# {{Title}}
+# <% tp.file.title %>
 
 by [[{{author}}]]
 

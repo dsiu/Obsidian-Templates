@@ -4,7 +4,8 @@ tags: type/post target/instagram
 aliases:
 visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>published:
+modified_at: <% tp.file.creation_date("") %>
+published:
 # --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
 template-type: "Outline Instagram"
 template-version: "1.8"

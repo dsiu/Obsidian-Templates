@@ -9,6 +9,10 @@ status: draft
 word_count: 0
 feedback: 0
 bar: <progress max=100 value=0></progress><br>0% first ideas
+# 10% takeaway promised, 20% used for teaching, 30% value offered
+# 40% front-loaded value, 50% high value-per-page, 60% value tested
+# 70% feedback received, 80% value improved, 90% finally polished, 100% recommended
+# --- Install plugin: https://github.com/blacksmithgu/obsidian-dataview
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 published:

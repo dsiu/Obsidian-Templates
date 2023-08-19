@@ -17,6 +17,8 @@ template-version: "1.14"
 > [!Question]
 > `= this.lead`
 
+<% tp.file.cursor(0) %>
+
 <!-- Answer the detailed question  -->
 
 

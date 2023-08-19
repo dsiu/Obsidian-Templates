@@ -18,6 +18,8 @@ template-version: "1.11"
 > `= this.lead`
 >  — `= this.source`
 
+<% tp.file.cursor(0) %>
+
 <!-- Additional term description if needed -->
 
 
@@ -25,7 +27,7 @@ template-version: "1.11"
 # Back Matter
 ## Source
 <!-- Always keep a link to the source- --> 
-- 
+- `= this.source`
 
 ## Tasks
 <!-- What remains to be done with this note? --> 
@@ -34,5 +36,8 @@ template-version: "1.11"
 ## References
 <!-- Links to pages not referenced in the content -->
 - 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> a609386 (use `created_at` and `modified_at`)

@@ -23,6 +23,7 @@ template-version: "1.8"
 >  `= this.quote`
 >  — `= this.author`
 
+<% tp.file.cursor(0) %>
 
 ---
 # Back Matter
@@ -41,16 +42,3 @@ template-version: "1.8"
 ## References
 <!-- Links to pages, internal and external, not referenced in the content -->
 - 
-
-
-
-
-
-
-
-
-
-
-
-
-

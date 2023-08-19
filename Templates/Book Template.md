@@ -11,11 +11,9 @@ category: {{category}}
 publisher: {{publisher}}
 publish_date: {{publishDate}}
 total_page: {{totalPage}}
-isbn: {{isbn10}} {{isbn1#template-variable-definition}}
+isbn: {{isbn10}} {{isbn13}}
 cover_url: {{coverUrl}}
 cover_small_url: {{cover_small_url}}
-isbn13: {{isbn13}}
-isbn10: {{isbn10}}
 description:
 link: {{link}}
 preview_link: {{preview_link}}
@@ -24,8 +22,8 @@ rating:
 date:
 read: 
 status: undefined
-created: {{DATE:YYYY-MM-DD, HH:mm}}
-modified: {{DATE:YYYY-MM-DD, HH:mm}}
+created_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
+modified_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
 template-type: Book
 template-version: "1.11"
 ---
@@ -38,7 +36,7 @@ status: undefined, backlog, to read, reading, completed, stopped
 
 ![cover|150]({{coverUrl}})
 
-# {{Title}}
+# <% tp.file.title %>
 
 by [[{{author}}]]
 

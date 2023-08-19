@@ -2,14 +2,14 @@
 tags: type/structure, structure/bujo
 # --- Learn more about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
 aliases: 
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 # --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
 template-type: BuJo Monthly
 template-version: "1.8"
 # --- Find latest updates: https://github.com/groepl/Obsidian-Templates
 ---
-# {{Title}}
+# <% tp.file.title %>
 
 <!-- Main STRUCTURE of my content -->
 [Monthly Logs 2023](Monthly%20Logs%202023.md) | [[2023]]

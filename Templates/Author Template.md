@@ -1,46 +1,52 @@
 ---
-tags: okr/keyaction
+tags: type/person role/author
 # --- More about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
-aliases:
-lead: +++ Lead paragraph goes here +++
+aliases: 
+birthday:
+bio_short: 
+lead: +++ Term definition goes here +++
 visual: "![[image.jpg]]"
 # --- Install plugin: https://github.com/blacksmithgu/obsidian-dataview
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 # --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
-template-type: Note
-template-version: "1.1"
+template-type: Author
+template-version: "1.7"
 # --- Find latest updates: https://github.com/groepl/Obsidian-Templates
 ---
 
 # <% tp.file.title %>
 
-<!--  Main idea of my thoughts -->
+##  Bio
+<!-- Short biography of the AUTHOR -->
 
-> [!Note]
-> `= this.lead`
-
-<!-- Other content of my note  -->
+> [!Bio short]
+> `= this.bio_short`
 
 
----
-# Back Matter
-## Source
-<!-- Always keep a link to the source- --> 
+
+## Books
+<!-- Only most important I‘ve read -->
 - 
 
+## Notes
+<!-- The main content of my thoughts really -->
+- 
+
+
+## Quotes
+<!-- Notable quotes with reference to their page or location -->
+- 
+
+---
 ## Tasks
 <!-- What remains to be done with this note? --> 
 - 
 
 ## Questions
-<!-- What remains for you to consider? --> 
+<!-- What remains for you to consider? -->
 - 
 
-## Terms
-<!-- Links to definition pages. -->
-- 
-
-## References
-<!-- Links to pages not referenced in the content. -->
+## References 
+<!-- Links to pages not referenced in the content -->
 - 

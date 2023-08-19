@@ -9,8 +9,8 @@ status: draft
 word_count: 0
 feedback: 0
 bar: <progress max=100 value=0></progress><br>0% first ideas
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 published:
 template_type: Ebook
 template_version: "1.12"
@@ -23,7 +23,7 @@ bar: <progress max=100 value=0></progress><br> 0% first ideas
 		70% feedback received, 80% value improved, 90% finally polished, 100% recommended 
 -->
 
-# {{Title}} - e1
+# <% tp.file.title %>
 
 ```dataviewjs 
 var progress_bar = (dv.current().bar);

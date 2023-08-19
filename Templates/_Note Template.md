@@ -3,14 +3,14 @@ tags: type/note
 aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 template-type: Note
 template-version: "1.18"
 ---
 <!--  See "Template Help" below for using properties -->
 
-# {{Title}}
+# <% tp.file.title %>
 
 <!--  Main idea of my thoughts -->
 

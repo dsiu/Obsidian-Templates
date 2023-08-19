@@ -2,14 +2,14 @@
 tags: type/post target/linkedin target/post 
 aliases:
 visual: "![[image.jpg]]"
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 published:
 template-type: "Outline LinkedIn"
 template-version: "1.11"
 ---
 
-# LinkedIn - {{Title}}
+# LinkedIn - <% tp.file.title %>
 
 <!-- Main content of this story -->
 ⚡️Title⚡️

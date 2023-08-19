@@ -6,15 +6,15 @@ lead: +++ Term definition goes here +++
 source: +++ source undefined +++
 visual: "![[image.jpg]]"
 # --- Install plugin: https://github.com/blacksmithgu/obsidian-dataview
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 # --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
 template-type: Term
 template-version: "1.9"
 # --- Find latest updates: https://github.com/groepl/Obsidian-Templates
 ---
 
-# {{Title}}
+# <% tp.file.title %>
 
 <!-- Term definition and source from frontmatter goes here. Also used for Dataview glossary. -->
 

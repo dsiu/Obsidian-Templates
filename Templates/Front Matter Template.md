@@ -5,8 +5,8 @@ aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 # --- Install plugin: https://github.com/blacksmithgu/obsidian-dataview
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 # --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
 template-type: Frontmatter
 template-version: "1.5"

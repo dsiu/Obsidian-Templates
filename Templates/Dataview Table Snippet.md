@@ -1,4 +1,4 @@
-<!-- DataView table, use example and modify -->
+<!-- Dataview table. Use as example and modify. -->
 ```dataview
 TABLE WITHOUT ID
 	file.link as books, 

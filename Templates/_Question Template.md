@@ -1,17 +1,14 @@
 ---
 tags: type/question
-# --- Learn more about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
 aliases:
 lead: +++ Term definition goes here +++
 visual: "![[image.jpg]]"
-# --- Install plugin: https://github.com/blacksmithgu/obsidian-dataview
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-# --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
 template-type: Question
-template-version: "1.7"
-# --- Find latest updates: https://github.com/groepl/Obsidian-Templates
+template-version: "1.14"
 ---
+<!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 
@@ -25,6 +22,8 @@ template-version: "1.7"
 
 
 ---
+# Back Matter
+
 ## Source
 <!-- Always keep a link to the source. --> 
 - 
@@ -41,13 +40,11 @@ template-version: "1.7"
 <!-- Links to pages where the answer is used for -->
 - 
 
-
-
-
-
-
-
-
-
-
-
+## Template Help
+<!-- Links to external help pages on GitHub. -->
+- [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
+- [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
+- [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)
+- [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
+- [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
+- [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)

@@ -1,34 +1,44 @@
 ---
-tags: type/sketchnote
+tags: type/person role/xyz
 aliases: 
-lead: +++ Lead paragraph goes here +++
+birth:
+death:
+bio_short: 
+lead: +++ Term definition goes here +++
 visual: "![[image.jpg]]"
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
-template-type: Sketchnote
-template-version: "1.13"
+created: {{date}}, {{time}}
+modified: {{date}}, {{time}}
+template-type: Author
+template-version: "1.11"
 ---
-<!--  See "Template Help" below for using properties -->
 
-# <% tp.file.title %>
+# {{Title}}
 
-<!-- My sketchnote  -->
+##  Bio
+<!-- Short biography of the AUTHOR -->
 
-`= this.visual`
+> [!Bio short]
+> `= this.bio_short`
 
-<!-- Main idea of my sketchnote  -->
 
-> [!Note]
-> `= this.lead`
 
-<!-- Other content of my sketchnote  -->
+## Books
+<!-- Only most important I‘ve read -->
+- 
 
+## Notes
+<!-- The main content of my thoughts really -->
+- 
+
+
+## Quotes
+<!-- Notable quotes with reference to their page or location -->
+- 
 
 ---
 # Back Matter
-
 ## Source
-<!-- Always keep a link to the source. --> 
+<!-- Always keep a link to the source- --> 
 - 
 
 ## Tasks
@@ -36,19 +46,15 @@ template-version: "1.13"
 - 
 
 ## Questions
-<!-- What remains for you to consider? --> 
+<!-- What remains for you to consider? -->
 - 
 
-## Terms
-<!-- Links to definition pages -->
-- 
-
-## References
+## References 
 <!-- Links to pages not referenced in the content -->
 - 
 
 ## Template Help
-<!-- Links to external help pages on GitHub. -->
+
 - [Basic Template Structure](https://github.com/groepl/Obsidian-Templates#basic-template-structure)
 - [How to Use Links](https://github.com/groepl/Obsidian-Templates#how-to-use-links)
 - [How to Use Tags](https://github.com/groepl/Obsidian-Templates#how-to-use-tags)

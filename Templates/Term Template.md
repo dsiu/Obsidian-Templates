@@ -36,8 +36,3 @@ template-version: "1.11"
 ## References
 <!-- Links to pages not referenced in the content -->
 - 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> a609386 (use `created_at` and `modified_at`)

@@ -5,8 +5,8 @@ lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 title: "{{title}}"
 subtitle: {{subtitle}}
-author: {{author}}
-authors: {{authors}}
+author: "[[{{author}}]]"
+authors: <%=book.authors.map(author=>`\n  - "[[${author}]]"`).join('')%>
 category: {{category}}
 publisher: {{publisher}}
 publish_date: {{publishDate}}

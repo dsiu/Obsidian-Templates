@@ -2,7 +2,9 @@
 tags: type/note 
 aliases:
 lead: +++ Lead paragraph goes here +++
-visual: "![[image.jpg]]"}created_at: <% tp.file.creation_date("") %>
+visual: "![[image.jpg]]"
+status: undefined
+created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template-type: Note
 template-version: "1.18"
@@ -15,6 +17,8 @@ template-version: "1.18"
 
 > [!Note]
 > `= this.lead`
+
+<% tp.file.cursor(0) %>
 
 <!-- Other content of my note  -->
 

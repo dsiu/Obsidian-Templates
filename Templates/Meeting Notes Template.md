@@ -15,6 +15,7 @@ template-version: "1.10"
 # <% tp.file.title %>
 
 <!-- Main content of my thoughts really -->
+<% tp.file.cursor(0) %>
 
 ## Date & Time
 <!-- With starting and ending times -->

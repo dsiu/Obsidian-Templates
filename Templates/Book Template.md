@@ -5,8 +5,8 @@ lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 title: "{{title}}"
 subtitle: {{subtitle}}
-author: {{author}}
-authors: {{authors}}
+author: "[[{{author}}]]"
+authors: <%=book.authors.map(author=>`\n  - "[[${author}]]"`).join('')%>
 category: {{category}}
 publisher: {{publisher}}
 publish_date: {{publishDate}}
@@ -79,13 +79,3 @@ by [[{{author}}]]
 ## References
 <!-- Links to pages not referenced in the content -->
 - 
-
-## Template help
-- More about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
-- Install plugin DataView: https://github.com/blacksmithgu/obsidian-dataview
-- Install plugin Book-Search: https://github.com/anpigon/obsidian-book-search-plugin
-- Install plugin Time-on-Edit: https://github.com/beaussan/update-time-on-edit-obsidian
-- Find latest updates: https://github.com/groepl/Obsidian-Templates
-
-
-

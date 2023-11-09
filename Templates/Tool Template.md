@@ -17,7 +17,7 @@ template-version: "1.8"
 
 <!-- Short description of TOOL goes here -->
 
-
+<% tp.file.cursor(0) %>
 
 ## Usage
 <!-- Why I am using this tool? The use case -->

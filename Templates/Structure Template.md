@@ -18,6 +18,7 @@ template-version: "1.8"
 <!-- Main STRUCTURE of my content -->
 - 
 
+<% tp.file.cursor(0) %>
 
 ---
 # Back Matter

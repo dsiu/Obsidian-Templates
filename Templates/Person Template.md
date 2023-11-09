@@ -1,30 +1,35 @@
 ---
-tags: type/person role/xyz
-aliases: 
-birth:
-death:
+tags:
+  - type/person
+  - role/xyz
+aliases: []
+birthday: 
 bio_short: 
 lead: +++ Term definition goes here +++
 visual: "![[image.jpg]]"
-created: {{date}}, {{time}}
-modified: {{date}}, {{time}}
-template-type: Author
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
+template-type: Person
 template-version: "1.11"
 ---
 
-# {{Title}}
+# <% tp.file.title %>
 
-##  Bio
-<!-- Short biography of the AUTHOR -->
+## Bio
+<!-- Short biography of the PERSON -->
 
 > [!Bio short]
 > `= this.bio_short`
 
+<% tp.file.cursor(0) %>
 
-
-## Books
-<!-- Only most important I‘ve read -->
+## Skills
 - 
+
+## Connections
+<!-- How I connect with How I connect with this person -->
+- 
+
 
 ## Notes
 <!-- The main content of my thoughts really -->
@@ -49,7 +54,7 @@ template-version: "1.11"
 <!-- What remains for you to consider? -->
 - 
 
-## References 
+## References
 <!-- Links to pages not referenced in the content -->
 - 
 
@@ -61,3 +66,4 @@ template-version: "1.11"
 - [How to Search Notes](https://github.com/groepl/Obsidian-Templates#how-to-search-notes)
 - [Plugins Needed](https://github.com/groepl/Obsidian-Templates#obsidian-plugins-needed)
 - [Find Latest Updates](https://github.com/groepl/Obsidian-Templates)
+

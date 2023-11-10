@@ -42,16 +42,3 @@ template-version: "1.8"
 ## References
 <!-- Links to pages, internal and external, not referenced in the content -->
 - 
-
-
-
-
-
-
-
-
-
-
-
-
-

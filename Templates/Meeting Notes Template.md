@@ -3,14 +3,12 @@ tags:
 - type/meeting
 - theme/xyz
 aliases:
-date:
+meeting-date:
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-modified: {{DATE:YYYY-MM-DD, HH:mm}}
 template_type: Meeting
 template_version: "1.20"
 ---
-<!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 

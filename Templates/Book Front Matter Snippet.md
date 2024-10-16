@@ -26,8 +26,8 @@ rating:
 date: 
 read: 
 status: undefined
-created: {{DATE:YYYY-MM-DD, HH:mm}}
-modified: {{DATE:YYYY-MM-DD, HH:mm}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 template_type: Book
 template_version: "1.16"
 ---

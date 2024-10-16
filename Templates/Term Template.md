@@ -12,7 +12,7 @@ template_type: Term
 template_version: "1.20"
 ---
 
-# {{Title}}
+# <% tp.file.title %>
 <!--  Clear and descriptive title -->
 
 <!-- A supporting visual from front matter if available -->

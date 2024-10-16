@@ -12,7 +12,6 @@ modified_at: <% tp.file.creation_date("") %>
 template_type: Prompt
 template_version: "1.15"
 ---
-<!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 

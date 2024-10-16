@@ -13,7 +13,6 @@ modified_at: <% tp.file.creation_date("") %>
 template-type: Person
 template-version: "1.18"
 ---
-<!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 

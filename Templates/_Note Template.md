@@ -11,7 +11,6 @@ modified_at: <% tp.file.creation_date("") %>
 template_type: Note
 template_version: "1.27"
 ---
-<!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 <!--  Clear and descriptive title -->
@@ -26,6 +25,8 @@ dv.paragraph(dv.current().visual);
 
 > [!Note]
 > `= this.lead`
+
+<% tp.file.cursor(0) %>
 
 **Details**
 <!-- Main content in body of my note  -->

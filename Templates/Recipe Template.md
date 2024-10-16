@@ -10,7 +10,6 @@ modified_at: <% tp.file.creation_date("") %>
 template_type: Note
 template_version: "1.8"
 ---
-<!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 

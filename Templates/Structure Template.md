@@ -10,7 +10,6 @@ modified_at: <% tp.file.creation_date("") %>
 template_type: Structure
 template_version: "1.15"
 ---
-<!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 <!--  Clear and descriptive title -->

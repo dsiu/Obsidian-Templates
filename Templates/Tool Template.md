@@ -1,6 +1,7 @@
 ---
 tags: 
 - type/tool
+- type/term
 - theme/xyz
 aliases: 
 lead: +++ Term definition goes here +++
@@ -18,6 +19,7 @@ template_version: "1.18"
 > [!Note]
 > `= this.lead`
 
+<% tp.file.cursor(0) %>
 
 ## Usage
 <!-- Why I am using this tool? The use case -->

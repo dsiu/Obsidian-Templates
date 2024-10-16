@@ -21,11 +21,11 @@ link: {{link}}
 preview_link: {{preview_link}}
 bibliography: +++ Copy here from Zotero +++
 rating: 
-date:
+date: 
 read: 
 status: undefined
-created: {{DATE:YYYY-MM-DDTHH:mm:ss}}
-modified: {{DATE:YYYY-MM-DDTHH:mm:ss}}
+created_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
+modified_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
 template_type: Book
 template_version: "1.17"
 ---
@@ -34,7 +34,6 @@ rating: ⭐️⭐️⭐️    // 1 to 3 stars
 date: 2023             // when started reading
 read: 2023             // when finished reading
 status: undefined, backlog, to read, reading, completed, stopped
-*** See "Template Help" below for using properties ***
 -->
 
 ![cover|150]({{coverUrl}})

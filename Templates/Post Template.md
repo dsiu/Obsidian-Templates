@@ -1,18 +1,25 @@
 ---
-tags: type/post target/linkedin target/post 
+tags: 
+- type/post 
+- theme/xyz
+- target/linkedin 
+- target/post 
 aliases:
 visual: "![[image.jpg]]"
+lead: +++ Lead paragraph goes here +++
+published:
+views: 0
+feedbacks: 0
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-published:
-template-type: "Outline LinkedIn"
-template-version: "1.11"
+template_type: "Outline LinkedIn"
+template_version: "1.23"
 ---
 
-# LinkedIn - <% tp.file.title %>
+# Post - <% tp.file.title %>
 
 <!-- Main content of this story -->
-⚡️Title⚡️
+✨ Title ✨
 ...
 
 **References**
@@ -29,14 +36,14 @@ Thanks very much! I really appreciate you reading my work. If you enjoyed it and
 
 ```
 --- TAGS FOR PUBLISHING ---
-#edmund2023 #agile #agilität #agilemindset #learning #lernos #lernossketchnoting #newwork #wol #workingoutloud #digitalsketchnotes #doodle #doodles #doodleart #drawing #facilitation #handwriting #lettering #sketchnote #sketchnotes #sketchnoting #storytelling #visualization #visualnotes #visualstorytelling #visualthinking #conceptsapp #powerbi #procreate #knowledgemanagement #obsidian #obsidianmd #pkm #secondbrain #smartsketchnotes #zettelkasten 
+#edmund2024 #agile #agilität #agilemindset #learning #lernos #lernossketchnoting #newwork #wol #workingoutloud #digitalsketchnotes #doodle #doodles #doodleart #drawing #facilitation #handwriting #lettering #sketchnote #sketchnotes #sketchnoting #storytelling #visualization #visualnotes #visualstorytelling #visualthinking #conceptsapp #powerbi #procreate #knowledgemanagement #obsidian #obsidianmd #pkm #secondbrain #smartsketchnotes #writing #zettelkasten 
 ```
 
 ```
 --- STRUCTURED LIST OF TAGS as input to build up list of TAGS FOR PUBLISHING. --
 
 FROM
-#edmund2023
+#edmund2024
 
 AGILE
 #agile #agilität #agilecoach #agilemindset 
@@ -51,25 +58,42 @@ TOOLS
 #ai #chatgpt #conceptsapp #powerbi #obsidian #obsidianmd #procreate 
 
 ZETTELKASTEN
-#knowledgemanagement #pkm #secondbrain #smartsketchnotes #zettelkasten 
+#knowledgemanagement #pkm #secondbrain #smartsketchnotes #writing #zettelkasten 
 ```
 
 ---
 # Back Matter
-## Source
-%% Always keep a link to the source. %%
+**Source**
+<!--Always keep a link to the source. -->
+- based_on::
+
+**References**
+<!-- Links to pages not referenced in the content -->
 - 
 
-## Tasks
+**Terms**
+<!-- Links to definition pages. -->
+- 
+
+**Target**
+<!-- Link to project note or externaly published content. -->
+- 
+
+**Feedback**
+<!-- Any critique, ideas or questions from social media or other audience? --> 
+- 
+
+
+**Tasks**
 <!-- What remains to be done do get the final version? --> 
 - [ ] Prepare final version 
 
 
-## Questions
+**Questions**
 <!-- What remains for you to consider in the draft version? --> 
 - 
 
-## Latest Posts
+**Latest Posts**
 <!-- Links to chapters from e-book -->
 
 ```dataview
@@ -80,6 +104,5 @@ SORT file.cday DESC
 LIMIT 10
 ```
 
-## References
-<!-- Links to pages not referenced in the content -->
-- 
+**Target**
+- target::

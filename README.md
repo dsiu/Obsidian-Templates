@@ -47,16 +47,15 @@ You first may have a look at my note examples created from these templates: [EXA
 
 ### 2_Literature + 3_Permanent Notes
 - [Note Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/_Note%20Template.md)
-- [Sketchnote Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/_Sketchnote%20Template.md)
 - [Question Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/_Question%20Template.md)
 
-### 4_Bibliographical Notes
+### 4_References
 - [Book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Book%20Template.md) -> needs plugin: [Book Search](https://github.com/anpigon/obsidian-book-search-plugin) 
-- [Expert Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Expert%20Template.md)
+- [Person Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Person%20Template.md)
 - [Quote Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Quote%20Template.md)
 - [Term Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Term%20Template.md) -> needs plugin: [Wikipedia](https://github.com/jmilldotdev/obsidian-wikipedia)
 
-### 5_Structure Notes
+### 5_Structures
 - [Structure Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Structure%20Template.md)
 - [Bullet Journal - Daily Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Bullet%20Journal%20-%20Daily%20Log.md)
 - [Bullet Journal - Future Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Bullet%20Journal%20-%20Future%20Log.md)
@@ -65,9 +64,9 @@ You first may have a look at my note examples created from these templates: [EXA
 - [Meeting Notes Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Meeting%20Notes%20Template.md)
 
 ### 6_Project Notes
-- [Outline E-book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Outline%20E-book%20Template.md) -> needs plugin: [Better Word Count](https://github.com/lukeleppan/better-word-count)
-- [Outline Instagram Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Outline%20Instagram%20Template.md) 
-- [Outline LinkedIn Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Outline%20LinkedIn%20Template.md)
+- [E-book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/E-book%20Template.md) -> needs plugin: [Better Word Count](https://github.com/lukeleppan/better-word-count)
+- [Post Instagram Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Post%20Instagram%20Template.md) 
+- [Post Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Post%20Template.md)
 
 ### Special Notes
 - [Recipe Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Recipe%20Template.md)
@@ -75,10 +74,10 @@ You first may have a look at my note examples created from these templates: [EXA
 
 ### Template Snippets
 - [Back Matter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Back%20Matter%20Snippet.md)
-- [Dataview Table Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Dataview%20Table%20Template.md)
-- [Frontmatter Book Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Front%20Matter%20Book%20Template.md)
-- [Frontmatter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Front%20Matter%20Template.md)
-- [Table Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Table%20Template.md)
+- [Book Frontmatter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Book%20Front%20Matter%20Snippet.md)
+- [Dataview Table Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Dataview%20Table%20Snippet.md)
+- [Frontmatter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Front%20Matter%20Snippet.md)
+
 
 ## How to Use Links
 <img src="/Visuals/Linking_with_Templates.png" width="700" />
@@ -86,11 +85,19 @@ More about: https://forum.obsidian.md/t/how-to-use-links/
 
 ## How to Use Tags
 <a href="https://github.com/groepl/Obsidian-Templates/tree/main/Assets"><img src="/Visuals/Tagging_with_Templates.png" width="700" /></a><br>
-More about: https://forum.obsidian.md/t/how-to-use-tags/
+More about: https://forum.obsidian.md/t/how-to-use-tags/ 
+
+## How to Use Properties
+<a href="https://github.com/groepl/Obsidian-Templates/tree/main/Assets"><img src="/Visuals/Metadata_2024-10-12.png" width="700" /></a><br>
+More about: https://forum.obsidian.md/t/16-obsidian-templates-for-zettelkasten-to-start-with/49098/58
 
 ## How to Search Notes
 <img src="/Visuals/IMG_0979.jpeg" width="700" />
 More about: https://forum.obsidian.md/t/search-and-retrieve-notes-how-do-you-search-in-zettelkasten/65386
+
+## Zettelkasten Ontology
+<img src="/Visuals/Zettelkasten_Ontology.png" width="700" />
+More about: https://forum.obsidian.md/t/limit-folders-how-do-you-use-zettelkasten-in-obsidian/35008/32
 
 ## FAQ
 - [Where can I discuss my own experiences with these templates?](https://forum.obsidian.md/t/16-obsidian-templates-for-zettelkasten-to-start-with/)
@@ -99,7 +106,7 @@ More about: https://forum.obsidian.md/t/search-and-retrieve-notes-how-do-you-sea
 - [How can I learn more about Obsidian and Zettelkasten?](https://github.com/groepl/Take-Useful-Notes)
 
 ## Creative Commons License
-[Obsidian Templates](https://github.com/groepl/Obsidian-Templates) © 2023 by [Edmund Gröpl](https://github.com/groepl) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/.)
+[Obsidian Templates](https://github.com/groepl/Obsidian-Templates) © 2022-24 by [Edmund Gröpl](https://github.com/groepl) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/.)
 
 ## Contact
 Please leave feedback here in the [GitHub discussions](https://github.com/groepl/Obsidian-Templates/discussions) or file a new issue if you found a bug or have a feature request. You can reach me via Mastodon too: [https://darmstadt.social/@groepl](https://darmstadt.social/@groepl)

@@ -1,16 +1,20 @@
 ---
-tags: type/post target/instagram 
-# --- Learn more about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
+tags: 
+- type/post 
+- theme/xyz
+- target/instagram 
 aliases:
 visual: "![[image.jpg]]"
+lead: +++ Lead paragraph goes here +++
+published:
+views: 0
+feedbacks: 0
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-published:
-# --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
-template-type: "Outline Instagram"
-template-version: "1.8"
-# --- Find latest updates: https://github.com/groepl/Obsidian-Templates
+template_type: "Outline Instagram"
+template_version: "1.16"
 ---
+<!--  See "Template Help" below for using properties -->
 
 # Instagram - <% tp.file.title %>
 
@@ -19,7 +23,7 @@ template-version: "1.8"
 
 - - -
 <!-- Main content of this story - Max. 2.200 characters -->
-⚡️Title⚡️
+✨ Title ✨
 ...
 
 **References**
@@ -63,11 +67,23 @@ ZETTELKASTEN
 
 ---
 # Back Matter
-## Questions
+**Source**
+<!-- Always keep a link to the source- --> 
+- based_on::
+
+**Tasks**
+<!-- What remains to be done with this note? --> 
+-
+
+**Questions**
 <!-- What remains for you to consider in the draft version? --> 
 - 
 
-## Latest Posts
+**Terms**
+<!-- Links to definition pages. -->
+-
+
+**Latest Posts**
 <!-- Links to chapters from e-book -->
 
 ```dataview
@@ -78,6 +94,10 @@ SORT file.cday DESC
 LIMIT 10
 ```
 
-## References
+**References**
 <!-- Links to pages not referenced in the content -->
 - 
+
+**Target**
+- target::
+

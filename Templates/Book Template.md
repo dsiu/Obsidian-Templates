@@ -1,5 +1,7 @@
 ---
-tags: type/book
+tags: 
+- type/book
+- theme/xyz
 aliases: 
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
@@ -22,16 +24,17 @@ rating:
 date:
 read: 
 status: undefined
-created_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
-modified_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
-template-type: Book
-template-version: "1.11"
+created: {{DATE:YYYY-MM-DDTHH:mm:ss}}
+modified: {{DATE:YYYY-MM-DDTHH:mm:ss}}
+template_type: Book
+template_version: "1.17"
 ---
 <!-- 
 rating: ⭐️⭐️⭐️    // 1 to 3 stars
 date: 2023             // when started reading
 read: 2023             // when finished reading
 status: undefined, backlog, to read, reading, completed, stopped
+*** See "Template Help" below for using properties ***
 -->
 
 ![cover|150]({{coverUrl}})
@@ -40,9 +43,9 @@ status: undefined, backlog, to read, reading, completed, stopped
 
 by [[{{author}}]]
 
-## Summary
 <!-- No more than a couple paragraphs summarizing this BOOK -->
 
+> [!summary]
 {{description}}
 
 ## Table of Contents
@@ -64,18 +67,26 @@ by [[{{author}}]]
 ---
 # Back Matter
 
-## Source
+**Source**
 <!-- Always keep a link to the source- --> 
--  
+- 
 
-## Tasks
+**References**
+<!-- Links to pages not referenced in the content. -->
+- 
+
+**Terms**
+<!-- Links to definition pages. -->
+- 
+
+**Target**
+<!-- Link to project note or externaly published content. -->
+- 
+
+**Tasks**
 <!-- What remains to be done with this note? --> 
 - 
 
-## Questions
-<!-- What remains for you to consider? -->
-- 
-
-## References
-<!-- Links to pages not referenced in the content -->
+**Questions**
+<!-- What remains for you to consider? --> 
 - 

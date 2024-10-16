@@ -1,46 +1,64 @@
 ---
-tags: type/note 
+tags: 
+- type/sketchnote
+- type/note
+- theme/xyz
 aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
-status: undefined
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-template-type: Note
-template-version: "1.18"
+template_type: Note
+template_version: "1.27"
 ---
 <!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
+<!--  Clear and descriptive title -->
 
-<!--  Main idea of my thoughts -->
+<!-- My sketchnote if available -->
+
+```dataviewjs 
+dv.paragraph(dv.current().visual);
+```
+
+<!--  Most essential idea from "lead"-key  in properties section -->
 
 > [!Note]
 > `= this.lead`
 
-<% tp.file.cursor(0) %>
+**Details**
+<!-- Main content in body of my note  -->
+- 
 
-<!-- Other content of my note  -->
+**Supporting Content**
+<!-- Supporting content in tail of my note  -->
+- 
 
 ---
 # Back Matter
 
-## Source
+**Source**
 <!-- Always keep a link to the source- --> 
+- based_on::
+
+**References**
+<!-- Links to pages not referenced in the content. -->
 - 
 
-## Tasks
-<!-- What remains to be done with this note? --> 
-- 
-
-## Questions
-<!-- What remains for you to consider? --> 
-- 
-
-## Terms
+**Terms**
 <!-- Links to definition pages. -->
 - 
 
-## References
-<!-- Links to pages not referenced in the content. -->
+**Target**
+<!-- Link to project note or externaly published content. -->
 - 
+
+**Tasks**
+<!-- What remains to be done with this note? --> 
+- 
+
+**Questions**
+<!-- What remains for you to consider? --> 
+- 
+

@@ -1,40 +1,37 @@
 ---
 tags: 
-- type/prompt 
-- theme/xyz
-- source/chatgpt 
+- theme/xyz 
+- type/okr
+okr: keyaction 
 aliases:
 lead: +++ Lead paragraph goes here +++
+status: active_2024
 visual: "![[image.jpg]]"
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
-# --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
-template_type: Prompt
-template_version: "1.15"
+created: {{DATE:YYYY-MM-DD, HH:mm}}
+modified: {{DATE:YYYY-MM-DD, HH:mm}}
+template_type: OKR Action
+template_version: "1.12"
 ---
-<!--  See "Template Help" below for using properties -->
+<!-- 
+okr: idea, wish, keyaction, keyresult, objective
+See "Template Help" below for using properties 
+-->
 
 # <% tp.file.title %>
 
-<!-- Detailed question from short title in front matter -->
+<!--  Main idea of my thoughts -->
 
 > [!Note]
 > `= this.lead`
 
-> [!Prompt]
-> `Q: <question>` 
-> `A: <answer>`
-
-<!-- Detailed response or dialog  -->
-
+<!-- Other content of my note  -->
 
 
 ---
 # Back Matter
-
 **Source**
 <!-- Always keep a link to the source- --> 
-- based_on::
+- 
 
 **References**
 <!-- Links to pages not referenced in the content. -->

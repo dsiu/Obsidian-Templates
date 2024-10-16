@@ -3,6 +3,18 @@
 # Back Matter
 **Source**
 <!-- Always keep a link to the source- --> 
+- based_on::
+
+**References**
+<!-- Links to pages not referenced in the content. -->
+- 
+
+**Terms**
+<!-- Links to definition pages. -->
+- 
+
+**Target**
+<!-- Link to project note or externaly published content. -->
 - 
 
 **Tasks**
@@ -11,17 +23,5 @@
 
 **Questions**
 <!-- What remains for you to consider? --> 
-- 
-
-**Terms**
-<!-- Links to definition pages. -->
-- 
-
-**References**
-<!-- Links to pages not referenced in the content. -->
-- 
-
-**Target**
-<!-- Links to project note or externaly published content. -->
 - 
 

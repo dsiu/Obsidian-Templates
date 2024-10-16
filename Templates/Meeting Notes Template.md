@@ -1,16 +1,16 @@
 ---
-tags: type/meeting
-# --- Learn more about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
+tags: 
+- type/meeting
+- theme/xyz
 aliases:
-meeting-date:
-#
+date:
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-# --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
-template-type: Meeting
-template-version: "1.10"
-# --- Find latest updates: https://github.com/groepl/Obsidian-Templates
+modified: {{DATE:YYYY-MM-DD, HH:mm}}
+template_type: Meeting
+template_version: "1.20"
 ---
+<!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 
@@ -53,14 +53,26 @@ template-version: "1.10"
 
 ---
 # Back Matter
-## Questions
+**Source**
+<!-- Always keep a link to the source- --> 
+- 
+
+**References**
+<!-- Links to pages not referenced in the content. -->
+- 
+
+**Terms**
+<!-- Links to definition pages. -->
+- 
+
+**Target**
+<!-- Link to project note or externaly published content. -->
+- 
+
+**Tasks**
+<!-- What remains to be done with this note? --> 
+- 
+
+**Questions**
 <!-- What remains for you to consider? --> 
-- 
-
-## Terms
-<!-- Links to definition pages -->
-- 
-
-## References
-<!-- Links to pages not referenced in the content -->
 - 

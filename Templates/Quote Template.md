@@ -1,18 +1,16 @@
 ---
-tags: type/quote
-# --- More about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
+tags: 
+- type/quote
+- theme/xyz
 aliases: 
 quote: 
 author:
 year:
 visual: "![[image.jpg]]"
-# --- Install plugin: https://github.com/blacksmithgu/obsidian-dataview
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-# --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
-template-type: Quote
-template-version: "1.8"
-# --- Find latest updates: https://github.com/groepl/Obsidian-Templates
+template_type: Quote
+template_version: "1.15"
 ---
 
 # <% tp.file.title %>
@@ -27,18 +25,27 @@ template-version: "1.8"
 
 ---
 # Back Matter
-## Source
+
+**Source**
 <!-- Always keep a link to the source- --> 
+- based_on::
+
+**References**
+<!-- Links to pages not referenced in the content. -->
 - 
 
-## Tasks
+**Terms**
+<!-- Links to definition pages. -->
+- 
+
+**Target**
+<!-- Link to project note or externaly published content. -->
+- 
+
+**Tasks**
 <!-- What remains to be done with this note? --> 
 - 
 
-## Annotations
-<!-- Context, questions, own ideas for usage, … -->
-- 
-
-## References
-<!-- Links to pages, internal and external, not referenced in the content -->
+**Questions**
+<!-- What remains for you to consider? --> 
 - 

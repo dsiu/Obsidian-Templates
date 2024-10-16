@@ -1,18 +1,17 @@
 ---
-tags: type/structure, structure/bujo
-# --- Learn more about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
+tags: 
+- type/structure
+- structure/bujo
 aliases: 
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-# --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
-template-type: BuJo Monthly
-template-version: "1.8"
-# --- Find latest updates: https://github.com/groepl/Obsidian-Templates
+template_type: BuJo Monthly
+template_version: "1.15"
 ---
 # <% tp.file.title %>
 
 <!-- Main STRUCTURE of my content -->
-[Monthly Logs 2023](Monthly%20Logs%202023.md) | [[2023]]
+[Monthly Logs 2024](Monthly%20Logs%202024.md) | [[2024]]
 ___
 
 ## OKRs
@@ -22,7 +21,7 @@ ___
 TABLE WITHOUT ID
 	file.link as Objectives
 FROM #okr/objective 
-WHERE status = "active_2023"
+WHERE status = "active_2024"
 SORT file.name ASC
 ```
 
@@ -30,7 +29,7 @@ SORT file.name ASC
 TABLE WITHOUT ID
 	file.link as "Key Results"
 FROM #okr/keyresult 
-WHERE status = "active_2023"
+WHERE status = "active_2024"
 SORT file.name ASC
 ```
 
@@ -76,17 +75,24 @@ ___
 . 30
 . 31
 
-
-___
+***
 # Back Matter
-##### Questions
+**Source**
+<!-- Always keep a link to the source- --> 
+- 
+
+**Tasks**
+<!-- What remains to be done with this note? --> 
+- 
+
+**Questions**
 <!-- What remains for you to consider? --> 
 - 
 
+**Terms**
+<!-- Links to definition pages. -->
+- 
 
-##### Terms
-<!-- Links to definition pages -->
-
-
-##### References
-<!-- Links to pages not referenced in the content -->
+**References**
+<!-- Links to pages not referenced in the content. -->
+- 

@@ -1,18 +1,20 @@
 ---
-tags: type/structure structure/list structure/bujo
-# --- More about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
+tags: 
+- type/structure 
+- structure/list 
+- structure/bujo
 aliases: 
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-# --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
-template-type: BuJo Future
-template-version: "1.5"
-# --- Find latest updates: https://github.com/groepl/Obsidian-Templates
+template_type: BuJo Future
+template_version: "1.10"
 ---
+<!--  See "Template Help" below for using properties -->
+
 # Future Log {{Title}}
 
 <!-- Main STRUCTURE of my content -->
-[Future Log Archive](Future%20Log%20Archive.md) | [[2023]] | [Ideas 2023](Ideas%202023.md) | [Vision Board 2022](Vision%20Board%202022.md)
+[Future Log Archive](Future%20Log%20Archive.md) | [[2024]] | [Ideas 2023](Ideas%202023.md) | [Vision Board 2024](Vision%20Board%202024.md)
 ___
 
 **Objectives & Key Results | 3-4 & 1-4**
@@ -57,13 +59,22 @@ ___
 
 ___
 # Back Matter
-##### Questions
+**Source**
+<!-- Always keep a link to the source- --> 
+- 
+
+**Tasks**
+<!-- What remains to be done with this note? --> 
+- 
+
+**Questions**
 <!-- What remains for you to consider? --> 
 - 
 
-##### Terms
-<!-- Links to definition pages -->
+**Terms**
+<!-- Links to definition pages. -->
+- 
 
-
-##### References
-<!-- Links to pages not referenced in the content -->
+**References**
+<!-- Links to pages not referenced in the content. -->
+- 

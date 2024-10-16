@@ -1,22 +1,61 @@
 ---
-tags: type/structure structure/bujo
-# --- Learn more about "How to use tags": https://forum.obsidian.md/t/how-to-use-tags/
+tags: 
+- type/structure
+- structure/bujo
 aliases: 
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-# --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
-template-type: BuJo Weekly
-template-version: "1.3"
-# --- Find latest updates: https://github.com/groepl/Obsidian-Templates
+template_type: BuJo Weekly
+template_version: "1.15"
 ---
+<!--  See "Template Help" below for using properties -->
+<!--  Obsidian Calendar plugin needed -->
 
 # <% tp.file.title %>
 
+**Mon**
+- 
 
-![[{{monday:gggg-MM-DD}}]] 
-![[{{tuesday:gggg-MM-DD}}]] 
-![[{{wednesday:gggg-MM-DD}}]] 
-![[{{thursday:gggg-MM-DD}}]] 
-![[{{friday:gggg-MM-DD}}]] 
-![[{{saturday:gggg-MM-DD}}]]
-![[{{sunday:gggg-MM-DD}}]]
+**Tue**
+-  
+
+**Wed**
+- 
+
+**Thu**
+- 
+
+**Fri**
+- 
+
+**Sat**
+- 
+
+**Son**
+- 
+
+---
+# Back Matter
+**Source**
+<!-- Always keep a link to the source- --> 
+- based_on::
+
+**References**
+<!-- Links to pages not referenced in the content. -->
+- 
+
+**Terms**
+<!-- Links to definition pages. -->
+- 
+
+**Target**
+<!-- Link to project note or externaly published content. -->
+- 
+
+**Tasks**
+<!-- What remains to be done with this note? --> 
+- 
+
+**Questions**
+<!-- What remains for you to consider? --> 
+- 

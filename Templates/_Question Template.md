@@ -1,18 +1,20 @@
 ---
-tags: type/question
+tags: 
+- type/question
+- theme/xyz
 aliases:
 lead: +++ Term definition goes here +++
 visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template-type: Question
-template-version: "1.14"
+template-version: "1.22"
 ---
 <!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 
-<!-- Detailed question from short title in front matter -->
+<!-- Detailed question from "lead"-key  in properties section -->
 
 > [!Question]
 > `= this.lead`
@@ -24,20 +26,26 @@ template-version: "1.14"
 
 
 ---
-# Back Matter
+**Source**
+<!-- Always keep a link to the source- --> 
+- based_on::
 
-## Source
-<!-- Always keep a link to the source. --> 
+**References**
+<!-- Links to pages not referenced in the content. -->
 - 
 
-## Tasks
+**Terms**
+<!-- Links to definition pages. -->
+- 
+
+**Target**
+<!-- Link to project note or externaly published content. -->
+- 
+
+**Tasks**
 <!-- What remains to be done with this note? --> 
 - 
 
-## Terms
-<!-- Links to definition pages -->
-- 
-
-## References
-<!-- Links to pages where the answer is used for -->
+**Questions**
+<!-- What remains for you to consider? --> 
 - 

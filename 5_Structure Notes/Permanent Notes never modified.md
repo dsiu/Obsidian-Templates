@@ -4,8 +4,8 @@ tags:
 aliases: 
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
-created: 2023-10-29, 21:23
-modified: 2023-11-25, 20:33
+created_at: 2023-10-29, 21:23
+modified_at: 2023-11-25, 20:33
 template_type: Structure
 template-version: "1.8"
 ---

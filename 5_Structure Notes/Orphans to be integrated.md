@@ -4,8 +4,8 @@ tags:
 aliases: 
 lead: An easy way to find notes that are not linked, do not link to other notes and do not use tags.
 visual: "![[image.jpg]]"
-created: 2023-10-30, 10:01
-modified: 2023-11-25, 20:33
+created_at: 2023-10-30, 10:01
+modified_at: 2023-11-25, 20:33
 template_type: Note
 template-version: "1.18"
 ---

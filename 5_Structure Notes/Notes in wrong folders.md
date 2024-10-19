@@ -2,8 +2,8 @@
 tags: type/structure structure/list type/dataview status/3_doing
 aliases: 
 lead: Notes with type/term, type/quote and type/book belong to 4_References Folder.
-created: 2023-04-22, 12:07
-modified: 2023-11-25, 20:33
+created_at: 2023-04-22, 12:07
+modified_at: 2023-11-25, 20:33
 template_type: Structure
 template-version: "1.5"
 ---

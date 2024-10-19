@@ -7,8 +7,8 @@ aliases:
 lead: +++ Lead paragraph goes here +++
 status: active_2024
 visual: "![[image.jpg]]"
-created: {{DATE:YYYY-MM-DD, HH:mm}}
-modified: {{DATE:YYYY-MM-DD, HH:mm}}
+created_at: {{DATE:YYYY-MM-DD, HH:mm}}
+modified_at: {{DATE:YYYY-MM-DD, HH:mm}}
 template_type: OKR Action
 template_version: "1.12"
 ---

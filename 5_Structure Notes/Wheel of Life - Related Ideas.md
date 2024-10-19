@@ -6,8 +6,8 @@ tags:
   - theme/zettelkasten
   - target/forumobsidian
 aliases: 
-created: 2023-04-08, 18:19
-modified: 2024-04-10, 10:56
+created_at: 2023-04-08, 18:19
+modified_at: 2024-04-10, 10:56
 template_type: Structure
 template_version: "1.4"
 ---

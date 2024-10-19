@@ -8,8 +8,8 @@ tags:
   - 
 aliases:
   - Kanban Board
-created: 2022-06-04, 15:46
-modified: 2023-11-03, 14:35
+created_at: 2022-06-04, 15:46
+modified_at: 2023-11-03, 14:35
 ---
 # Dataview - Kanban Board
 

@@ -6,8 +6,8 @@ tags:
 aliases: 
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
-created: 2023-11-13, 21:15
-modified: 2023-11-24, 19:46
+created_at: 2023-11-13, 21:15
+modified_at: 2023-11-24, 19:46
 template_type: Structure
 template_version: "1.10"
 ---

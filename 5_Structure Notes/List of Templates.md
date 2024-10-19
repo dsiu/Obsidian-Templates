@@ -14,8 +14,8 @@ tags: type/structure structure/list type/dataview
 #visual/ - from #type/visual
 #
 aliases: 
-created: 2022-03-13, 22:47
-modified: 2022-12-07, 12:47
+created_at: 2022-03-13, 22:47
+modified_at: 2022-12-07, 12:47
 #
 template-type: Structure
 template-version: "1.1"

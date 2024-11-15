@@ -1,8 +1,7 @@
 ---
-tags: 
-- type/tool
-- type/term
-- theme/xyz
+tags:
+  - type/tool
+  - theme/xyz
 aliases: 
 lead: +++ Term definition goes here +++
 visual: "![[image.jpg]]"

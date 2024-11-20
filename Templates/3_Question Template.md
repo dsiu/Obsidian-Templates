@@ -1,48 +1,41 @@
 ---
 tags: 
-- type/structure
-- structure/bujo
-aliases: 
+- type/question
+- theme/xyz
+aliases:
+lead: +++ Question goes here +++
+visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-template_type: BuJo Weekly
-template_version: "1.15"
+template-type: Question
+template-version: "1.23"
 ---
 <!--  See "Template Help" below for using properties -->
-<!--  Obsidian Calendar plugin needed -->
 
 # <% tp.file.title %>
 
-**Mon**
-- 
+<!-- Detailed question from "lead"-key  in properties section -->
 
-**Tue**
--  
+> [!Question]
+> `= this.lead`
 
-**Wed**
-- 
+<% tp.file.cursor(0) %>
 
-**Thu**
-- 
+<!-- Answer the detailed question  -->
 
-**Fri**
-- 
 
-**Sat**
-- 
-
-**Son**
-- 
 
 ---
 # Back Matter
+
 **Source**
 <!-- Always keep a link to the source- --> 
 - based_on::
 
 **References**
-<!-- Links to pages not referenced in the content. -->
-- 
+<!-- Links to pages not referenced in the content. 
+- see:: [[related note]] and <why you made this connection> -->
+- see:: 
 
 **Terms**
 <!-- Links to definition pages. -->
@@ -51,7 +44,7 @@ template_version: "1.15"
 **Target**
 <!-- Link to project note or externaly published content. -->
 - 
-
+---
 **Tasks**
 <!-- What remains to be done with this note? --> 
 - 

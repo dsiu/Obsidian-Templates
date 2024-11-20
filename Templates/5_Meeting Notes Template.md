@@ -7,7 +7,7 @@ meeting-date:
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template_type: Meeting
-template_version: "1.20"
+template_version: "1.21"
 ---
 
 # <% tp.file.title %>

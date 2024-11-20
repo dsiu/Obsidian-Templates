@@ -10,10 +10,10 @@ lead: +++ Lead paragraph goes here +++
 published:
 views: 0
 feedbacks: 0
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
-template_type: "Outline LinkedIn"
-template_version: "1.23"
+created: <% tp.file.creation_date("") %>
+modified: <% tp.file.creation_date("") %>
+template_type: "Post"
+template_version: "1.25"
 ---
 
 # Post - <% tp.file.title %>
@@ -68,8 +68,8 @@ ZETTELKASTEN
 - based_on::
 
 **References**
-<!-- Links to pages not referenced in the content -->
-- 
+<!-- Links to pages not referenced in the content. see:: <reference> for <reason> -->
+- see:: 
 
 **Terms**
 <!-- Links to definition pages. -->
@@ -77,7 +77,7 @@ ZETTELKASTEN
 
 **Target**
 <!-- Link to project note or externaly published content. -->
-- 
+- target::
 
 **Feedback**
 <!-- Any critique, ideas or questions from social media or other audience? --> 
@@ -86,7 +86,7 @@ ZETTELKASTEN
 
 **Tasks**
 <!-- What remains to be done do get the final version? --> 
-- [ ] Prepare final version 
+- 
 
 
 **Questions**
@@ -103,6 +103,3 @@ FROM #target/linkedin
 SORT file.cday DESC
 LIMIT 10
 ```
-
-**Target**
-- target::

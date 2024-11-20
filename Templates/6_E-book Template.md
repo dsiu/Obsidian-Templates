@@ -19,7 +19,7 @@ published:
 views: 0
 feedbacks: 0
 template_type: Ebook
-template_version: "1.23"
+template_version: "1.24"
 ---
 <!--  
 status: draft, final, published, revised 
@@ -63,11 +63,8 @@ dv.paragraph('> ' + dv.current().rule);
 - based_on::
 
 **Tasks**
-<!-- What remains to be done do get the final version? --> 
-
-- [ ] Prepare final version 
-- [ ] Publish on GitHub
-- [ ] Review and revise
+<!-- What remains to be done do get the final version? If process related, use Kanban. --> 
+- 
 
 **Feedback**
 <!-- What remains for you to consider in the draft version? --> 

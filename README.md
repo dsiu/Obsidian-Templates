@@ -52,37 +52,39 @@ Or use it as part of the [Obsidian-Zettelkasten-Starter-Kit](https://github.com/
 You first may have a look at my note examples created from these templates: [EXAMPLES](https://github.com/groepl/Obsidian-Templates/blob/main/EXAMPLES.md).
 
 ### 2_Literature + 3_Permanent Notes
-- [Note Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/_Note%20Template.md)
-- [Question Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/_Question%20Template.md)
+- [Note Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Note%20Template.md)
+- [Prompt Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Prompt%20Template.md)
+- [Question Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Question%20Template.md)
 
 ### 4_References
-- [Book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Book%20Template.md) -> needs plugin: [Book Search](https://github.com/anpigon/obsidian-book-search-plugin) 
-- [Person Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Person%20Template.md)
-- [Quote Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Quote%20Template.md)
-- [Term Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Term%20Template.md) -> needs plugin: [Wikipedia](https://github.com/jmilldotdev/obsidian-wikipedia)
+- [Book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Book%20Template.md) -> needs plugin: [Book Search](https://github.com/anpigon/obsidian-book-search-plugin) 
+- [Person Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Person%20Template.md)
+- [Quote Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Quote%20Template.md)
+- [Term Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Term%20Template.md) -> needs plugin: [Wikipedia](https://github.com/jmilldotdev/obsidian-wikipedia)
+- [Recipe Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Recipe%20Template.md)
+- [Tool Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Tool%20Template.md)
 
 ### 5_Structures
-- [Structure Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Structure%20Template.md)
-- [Bullet Journal - Daily Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Bullet%20Journal%20-%20Daily%20Log.md)
-- [Bullet Journal - Future Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Bullet%20Journal%20-%20Future%20Log.md)
-- [Bullet Journal - Monthly Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Bullet%20Journal%20-%20Monthly%20Log.md)
-- [Bullet Journal - Weekly Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Bullet%20Journal%20-%20Weekly%20Log.md)
-- [Meeting Notes Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Meeting%20Notes%20Template.md)
+- [BuJo - Future Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Future%20Log.md)
+- [BuJo - Monthly Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Monthly%20Log.md)
+- [BuJo - Weekly Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Weekly%20Log.md)
+- [BuJo - Daily Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Daily%20Log.md)
+- [Meeting Notes Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_Meeting%20Notes%20Template.md)
+- [OKR Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_OKR%20Template.md)
+- [Structure Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_Structure%20Template.md)
 
 ### 6_Project Notes
-- [E-book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/E-book%20Template.md) -> needs plugin: [Better Word Count](https://github.com/lukeleppan/better-word-count)
-- [Post Instagram Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Post%20Instagram%20Template.md) 
-- [Post Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Post%20Template.md)
-
-### Special Notes
-- [Recipe Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Recipe%20Template.md)
-- [Tool Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Tool%20Template.md)
+- [E-book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_E-book%20Template.md) -> needs plugin: [Better Word Count](https://github.com/lukeleppan/better-word-count)
+- [Post Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_Post%20Template.md)
+- [Post Instagram Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_Post%20Instagram%20Template.md) 
 
 ### Template Snippets
-- [Back Matter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Back%20Matter%20Snippet.md)
-- [Book Frontmatter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Book%20Front%20Matter%20Snippet.md)
-- [Dataview Table Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Dataview%20Table%20Snippet.md)
-- [Frontmatter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/Front%20Matter%20Snippet.md)
+- [Back Matter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Back%20Matter%20Snippet.md)
+- [Book Frontmatter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Book%20Front%20Matter%20Snippet.md)
+- [Dataview Table Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Dataview%20Table%20Snippet.md)
+- [DataviewJS Quote Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_DataviewJS%20Quote%20Snippet.md)
+- [E-book Back Matter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_E-book%20Back%20Matter%20Snippet.md)
+- [Frontmatter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Front%20Matter%20Snippet.md)
 
 
 ## How to Use Links

@@ -1,19 +1,20 @@
 ---
 tags: 
-- theme/xyz 
+- theme/objectives
 - type/okr
-okr: keyaction 
 aliases:
 lead: +++ Lead paragraph goes here +++
+okr: keyaction 
 status: active_2024
 visual: "![[image.jpg]]"
-created_at: {{DATE:YYYY-MM-DD, HH:mm}}
-modified_at: {{DATE:YYYY-MM-DD, HH:mm}}
-template_type: OKR Action
-template_version: "1.12"
+created: {{DATE:YYYY-MM-DD, HH:mm}}
+modified: {{DATE:YYYY-MM-DD, HH:mm}}
+template_type: OKR
+template_version: "1.16"
 ---
 <!-- 
-okr: idea, wish, keyaction, keyresult, objective
+okr: idea, wish, keyaction, keyresult, objective | annual
+template_type: OKR, Wish, Objective, Key Result, Key Action
 See "Template Help" below for using properties 
 -->
 

@@ -10,13 +10,14 @@ subtitle: {{subtitle}}
 author: "[[{{author}}]]"
 authors: <%=book.authors.map(author=>`\n  - "[[${author}]]"`).join('')%>
 category: {{category}}
+categories: {{categories}}
+description: 
 publisher: {{publisher}}
-publish_date: {{publishDate}}
 total_page: {{totalPage}}
-isbn: {{isbn10}} {{isbn13}}
 cover_url: {{coverUrl}}
-cover_small_url: {{cover_small_url}}
-description:
+cover_small_url: {{coverSmallUrl}}
+publish_date: {{publishDate}}
+isbn: {{isbn10}} {{isbn13}}
 link: {{link}}
 preview_link: {{preview_link}}
 bibliography: +++ Copy here from Zotero +++
@@ -27,7 +28,7 @@ status: undefined
 created_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
 modified_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
 template_type: Book
-template_version: "1.17"
+template_version: "1.18"
 ---
 <!-- 
 rating: ⭐️⭐️⭐️    // 1 to 3 stars

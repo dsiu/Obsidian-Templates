@@ -1,31 +1,40 @@
 ---
 tags: 
-- type/question
-- theme/xyz
-aliases:
-lead: +++ Term definition goes here +++
-visual: "![[image.jpg]]"
+- type/structure
+- structure/bujo
+aliases: 
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-template-type: Question
-template-version: "1.22"
+template_type: BuJo Weekly
+template_version: "1.16"
 ---
 <!--  See "Template Help" below for using properties -->
 
 # <% tp.file.title %>
 
-<!-- Detailed question from "lead"-key  in properties section -->
+**Mon**
+- 
 
-> [!Question]
-> `= this.lead`
+**Tue**
+-  
 
-<% tp.file.cursor(0) %>
+**Wed**
+- 
 
-<!-- Answer the detailed question  -->
+**Thu**
+- 
 
+**Fri**
+- 
 
+**Sat**
+- 
+
+**Son**
+- 
 
 ---
+# Back Matter
 **Source**
 <!-- Always keep a link to the source- --> 
 - based_on::

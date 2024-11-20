@@ -1,17 +1,16 @@
 ---
-tags: 
-- type/sketchnote
-- type/note
-- theme/xyz
-aliases:
+tags:
+  - type/sketchnote
+  - type/note
+  - theme/xyz
+aliases: 
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template_type: Note
-template_version: "1.27"
+template_version: "1.31"
 ---
-
 # <% tp.file.title %>
 <!--  Clear and descriptive title -->
 
@@ -23,7 +22,7 @@ dv.paragraph(dv.current().visual);
 
 <!--  Most essential idea from "lead"-key  in properties section -->
 
-> [!Note]
+> [!Summary]
 > `= this.lead`
 
 <% tp.file.cursor(0) %>
@@ -44,8 +43,9 @@ dv.paragraph(dv.current().visual);
 - based_on::
 
 **References**
-<!-- Links to pages not referenced in the content. -->
-- 
+<!-- Links to pages not referenced in the content. 
+- see:: [[related note]] and <why you made this connection> -->
+- see:: 
 
 **Terms**
 <!-- Links to definition pages. -->
@@ -54,7 +54,7 @@ dv.paragraph(dv.current().visual);
 **Target**
 <!-- Link to project note or externaly published content. -->
 - 
-
+---
 **Tasks**
 <!-- What remains to be done with this note? --> 
 - 

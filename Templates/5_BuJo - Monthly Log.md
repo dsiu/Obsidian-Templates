@@ -8,6 +8,7 @@ modified_at: <% tp.file.creation_date("") %>
 template_type: BuJo Monthly
 template_version: "1.15"
 ---
+
 # <% tp.file.title %>
 
 <!-- Main STRUCTURE of my content -->

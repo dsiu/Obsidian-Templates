@@ -28,7 +28,6 @@ dv.paragraph(dv.current().visual);
 <!-- Main STRUCTURE of my content -->
 - 
 
-<% tp.file.cursor(0) %>
 
 ---
 # Back Matter

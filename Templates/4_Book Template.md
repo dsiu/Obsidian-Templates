@@ -22,7 +22,7 @@ link: {{link}}
 preview_link: {{preview_link}}
 bibliography: +++ Copy here from Zotero +++
 rating: 
-date: 
+date:
 read: 
 status: undefined
 created_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}

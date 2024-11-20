@@ -21,15 +21,12 @@ template_version: "1.20"
 dv.paragraph(dv.current().visual);
 ```
 
-# <% tp.file.title %>
 
 <!-- Term definition and source from front matter goes here. Also used for Dataview glossary. -->
 
 > [!Definition]
 > `= this.lead`
 >  — `= this.source`
-
-<% tp.file.cursor(0) %>
 
 <!-- Additional term description if needed -->
 
@@ -40,7 +37,7 @@ dv.paragraph(dv.current().visual);
 
 **Source**
 <!-- Always keep a link to the source- --> 
-- based_on:: `= this.source`
+- based_on::
 
 **References**
 <!-- Links to pages not referenced in the content. -->

@@ -10,8 +10,8 @@ lead: +++ Term definition goes here +++
 visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-template-type: Person
-template-version: "1.18"
+template_type: Person
+template_version: "1.18"
 ---
 
 # <% tp.file.title %>
@@ -22,20 +22,13 @@ template-version: "1.18"
 > [!Bio short]
 > `= this.bio_short`
 
-<% tp.file.cursor(0) %>
-
-## Skills
-- 
-
 ## Connections
 <!-- How I connect with this person -->
 - 
 
-
 ## Notes
 <!-- The main content of my thoughts really -->
 - 
-
 
 ## Quotes
 <!-- Notable quotes with reference to their page or location -->

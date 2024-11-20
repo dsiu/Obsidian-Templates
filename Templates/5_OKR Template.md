@@ -7,8 +7,8 @@ lead: +++ Lead paragraph goes here +++
 okr: keyaction 
 status: active_2024
 visual: "![[image.jpg]]"
-created: {{DATE:YYYY-MM-DD, HH:mm}}
-modified: {{DATE:YYYY-MM-DD, HH:mm}}
+created_at: <% tp.file.creation_date("") %>
+modified_at: <% tp.file.creation_date("") %>
 template_type: OKR
 template_version: "1.16"
 ---

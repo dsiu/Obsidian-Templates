@@ -18,7 +18,6 @@ template_version: "1.18"
 > [!Note]
 > `= this.lead`
 
-<% tp.file.cursor(0) %>
 
 ## Usage
 <!-- Why I am using this tool? The use case -->

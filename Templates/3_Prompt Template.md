@@ -8,7 +8,6 @@ lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-# --- Install plugin: https://github.com/beaussan/update-time-on-edit-obsidian
 template_type: Prompt
 template_version: "1.15"
 ---

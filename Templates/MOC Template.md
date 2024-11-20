@@ -9,7 +9,7 @@ theme_tag: ""
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template-type: MOC
-template-version: "1.1"
+template-version: "1.2"
 ---
 
 # <% tp.file.title %>
@@ -38,7 +38,7 @@ sort file.name
 ## Others with `= this.theme_tag`
 ```dataview
 table join(sort(file.etags), " ") as tags
-from #theme and -(#type/term OR #type/structure OR "Readwise")
+from #theme and -(#type/term OR "Readwise")
 where contains(file.etags, this.theme_tag)
 sort modified_at desc
 ```

@@ -11,6 +11,7 @@ modified_at: <% tp.file.creation_date("") %>
 template_type: Note
 template_version: "1.31"
 ---
+
 # <% tp.file.title %>
 <!--  Clear and descriptive title -->
 

@@ -10,8 +10,8 @@ lead: +++ Term definition goes here +++
 visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-template-type: Author
-template-version: "1.12"
+template-type: Person
+template-version: "1.18"
 ---
 
 # <% tp.file.title %>

@@ -46,7 +46,7 @@ Or use it as part of the [Obsidian-Zettelkasten-Starter-Kit](https://github.com/
 - [View Count](https://github.com/decaf-dev/obsidian-view-count) - Tracks the view count for each file in your vault.
   
 ## Basic Template Structure
-<img src="/Visuals/IMG_0934.png" width="700" />
+<img src="/Visuals/IMG_0934.png" width="500" />
 
 ## List of Templates
 You first may have a look at my note examples created from these templates: [EXAMPLES](https://github.com/groepl/Obsidian-Templates/blob/main/EXAMPLES.md).
@@ -60,8 +60,8 @@ You first may have a look at my note examples created from these templates: [EXA
 - [Book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Book%20Template.md) -> needs plugin: [Book Search](https://github.com/anpigon/obsidian-book-search-plugin) 
 - [Person Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Person%20Template.md)
 - [Quote Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Quote%20Template.md)
-- [Term Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Term%20Template.md) -> needs plugin: [Wikipedia](https://github.com/jmilldotdev/obsidian-wikipedia)
 - [Recipe Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Recipe%20Template.md)
+- [Term Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Term%20Template.md) -> needs plugin: [Wikipedia](https://github.com/jmilldotdev/obsidian-wikipedia)
 - [Tool Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Tool%20Template.md)
 
 ### 5_Structures
@@ -76,7 +76,6 @@ You first may have a look at my note examples created from these templates: [EXA
 ### 6_Project Notes
 - [E-book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_E-book%20Template.md) -> needs plugin: [Better Word Count](https://github.com/lukeleppan/better-word-count)
 - [Post Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_Post%20Template.md)
-- [Post Instagram Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_Post%20Instagram%20Template.md) 
 
 ### Template Snippets
 - [Back Matter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Back%20Matter%20Snippet.md)
@@ -88,12 +87,12 @@ You first may have a look at my note examples created from these templates: [EXA
 
 
 ## How to Use Links
-<img src="/Visuals/Linking_with_Templates.png" width="700" />
-More about: https://forum.obsidian.md/t/how-to-use-links/
+<img src="/Visuals/Linking_with_Templates.png" width="500" />
+More about: https://forum.obsidian.md/t/link-notes-but-how/
 
 ## How to Use Tags
-<a href="https://github.com/groepl/Obsidian-Templates/tree/main/Assets"><img src="/Visuals/Tagging_with_Templates.png" width="700" /></a><br>
-More about: https://forum.obsidian.md/t/how-to-use-tags/ 
+<img src="/Visuals/use_tags_2024-12-23.png" width="700" /></a><br>
+More about: https://forum.obsidian.md/t/use-tags-but-how/
 
 ## How to Use Properties
 <a href="https://github.com/groepl/Obsidian-Templates/tree/main/Assets"><img src="/Visuals/Metadata_2024-10-12.png" width="700" /></a><br>

@@ -5,8 +5,8 @@ tags:
 aliases: 
 created_at: <% tp.date.now(tp.file.title) %>
 modified_at: <% tp.file.creation_date("") %>
-template-type: Journal Daily
-template-version: "1.2"
+template_type: Journal Daily
+template_version: "1.2"
 ---
 # <% tp.file.title %>
 ## Notes

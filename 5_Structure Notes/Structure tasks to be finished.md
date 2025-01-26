@@ -7,7 +7,7 @@ visual: "![[image.jpg]]"
 created_at: 2023-10-29, 19:31
 modified_at: 2023-11-25, 20:43
 template_type: Structure
-template-version: "1.8"
+template_version: "1.8"
 ---
 
 # Structure tasks to be finished

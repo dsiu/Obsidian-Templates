@@ -8,8 +8,8 @@ visual: "![[image.jpg]]"
 theme_tag: ""
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
-template-type: MOC
-template-version: "1.2"
+template_type: MOC
+template_version: "1.2"
 ---
 
 # <% tp.file.title %>

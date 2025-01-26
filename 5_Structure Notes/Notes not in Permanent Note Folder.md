@@ -9,7 +9,7 @@ aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 template_type: Frontmatter
-template-version: "1.8"
+template_version: "1.8"
 ---
 <!--  See "Template Help" below for using properties -->---
 

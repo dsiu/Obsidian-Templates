@@ -9,7 +9,7 @@ visual: "![[image.jpg]]"
 created_at: 2023-10-30, 19:38
 modified_at: 2023-12-02, 15:44
 template_type: Note
-template-version: "1.18"
+template_version: "1.18"
 ---
 <!--  See "Template Help" below for using properties -->
 

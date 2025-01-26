@@ -7,7 +7,7 @@ visual: "![[image.jpg]]"
 created_at: 2023-10-30, 10:01
 modified_at: 2023-11-25, 20:33
 template_type: Note
-template-version: "1.18"
+template_version: "1.18"
 ---
 <!--  See "Template Help" below for using properties -->
 

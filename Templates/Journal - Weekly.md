@@ -5,8 +5,8 @@ tags:
 aliases: 
 created_at: {{monday:YYYY-MM-DD}}
 modified_at: <% tp.file.creation_date("") %>
-template-type: Journal Weekly
-template-version: "1.4"
+template_type: Journal Weekly
+template_version: "1.4"
 ---
 # <% tp.file.title %>
 ## Summary

@@ -7,7 +7,7 @@ visual: "![[image.jpg]]"
 created_at: 2023-10-29, 19:26
 modified_at: 2023-11-25, 20:42
 template_type: Structure
-template-version: "1.8"
+template_version: "1.8"
 ---
 
 # Literature Notes to be processed

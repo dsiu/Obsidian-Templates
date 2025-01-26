@@ -7,7 +7,7 @@ visual: "![[image.jpg]]"
 created_at: 2023-10-29, 11:39
 modified_at: 2023-12-02, 15:27
 template_type: Structure
-template-version: "1.8"
+template_version: "1.8"
 updated: 2023-11-07T19:36
 ---
 

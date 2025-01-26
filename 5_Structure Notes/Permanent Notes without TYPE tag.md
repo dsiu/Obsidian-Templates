@@ -6,7 +6,7 @@ aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 template_type: Structure
-template-version: "1.9"
+template_version: "1.9"
 ---
 <!--  See "Template Help" below for using properties -->
 

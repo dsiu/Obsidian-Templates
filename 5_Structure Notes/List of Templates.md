@@ -17,8 +17,8 @@ aliases:
 created_at: 2022-03-13, 22:47
 modified_at: 2022-12-07, 12:47
 #
-template-type: Structure
-template-version: "1.1"
+template_type: Structure
+template_version: "1.1"
 cc: "CC BY-SA 4.0"
 legalcode: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 ---

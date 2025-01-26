@@ -4,7 +4,7 @@ aliases:
 created_at: 2022-12-27, 17:17
 modified_at: 2023-11-25, 20:42
 template_type: Structure
-template-version: "1.2"
+template_version: "1.2"
 cc: CC BY-SA 4.0
 legalcode: https://creativecommons.org/licenses/by-sa/4.0/legalcode
 ---

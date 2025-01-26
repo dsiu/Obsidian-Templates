@@ -5,8 +5,8 @@ tags:
 aliases: 
 created_at: <% tp.date.now(tp.file.title) %>
 modified_at: <% tp.file.creation_date("") %>
-template-type: Journal Monthly
-template-version: "1.0"
+template_type: Journal Monthly
+template_version: "1.0"
 ---
 # <% tp.file.title %>
 ```dataview 

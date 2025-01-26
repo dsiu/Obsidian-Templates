@@ -5,7 +5,7 @@ lead: Notes with type/term, type/quote and type/book belong to 4_References Fold
 created_at: 2023-04-22, 12:07
 modified_at: 2023-11-25, 20:33
 template_type: Structure
-template-version: "1.5"
+template_version: "1.5"
 ---
 
 # Notes in wrong folders

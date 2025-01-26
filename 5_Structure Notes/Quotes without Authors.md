@@ -9,7 +9,7 @@ visual: "![[image.jpg]]"
 created_at: 2023-11-13, 21:15
 modified_at: 2023-11-25, 20:43
 template_type: Structure
-template-version: "1.9"
+template_version: "1.9"
 ---
 <!--  See "Template Help" below for using properties -->
 

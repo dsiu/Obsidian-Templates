@@ -1,7 +1,7 @@
 ---
-tags: 
-- type/term
-- theme/xyz
+tags:
+  - type/term
+  - theme/xyz
 aliases: 
 lead: +++ Term definition goes here +++
 source: +++ source undefined +++
@@ -9,7 +9,7 @@ visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template_type: Term
-template_version: "1.20"
+template_version: "1.22"
 ---
 
 # <% tp.file.title %>
@@ -32,6 +32,7 @@ dv.paragraph(dv.current().visual);
 
 
 
+
 ---
 # Back Matter
 
@@ -40,8 +41,8 @@ dv.paragraph(dv.current().visual);
 - based_on::
 
 **References**
-<!-- Links to pages not referenced in the content. -->
-- 
+<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+- see:: 
 
 **Terms**
 <!-- Links to definition pages. -->
@@ -49,12 +50,13 @@ dv.paragraph(dv.current().visual);
 
 **Target**
 <!-- Link to project note or externaly published content. -->
-- 
+- used_in::
 
+---
 **Tasks**
 <!-- What remains to be done with this note? --> 
 - 
 
 **Questions**
 <!-- What remains for you to consider? --> 
-- 
+- question::

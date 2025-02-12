@@ -9,17 +9,17 @@ visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template_type: Note
-template_version: "1.31"
+template_version: "1.35"
 ---
 
 # <% tp.file.title %>
 <!--  Clear and descriptive title -->
 
 <!-- My sketchnote if available -->
-
 ```dataviewjs 
 dv.paragraph(dv.current().visual);
 ```
+<small>_Zoom: [[]] | Edit: [[]]_</small>
 
 <!--  Most essential idea from "lead"-key  in properties section -->
 
@@ -44,8 +44,7 @@ dv.paragraph(dv.current().visual);
 - based_on::
 
 **References**
-<!-- Links to pages not referenced in the content. 
-- see:: [[related note]] and <why you made this connection> -->
+<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
 - see:: 
 
 **Terms**
@@ -54,7 +53,8 @@ dv.paragraph(dv.current().visual);
 
 **Target**
 <!-- Link to project note or externaly published content. -->
-- 
+- used_in::
+
 ---
 **Tasks**
 <!-- What remains to be done with this note? --> 
@@ -62,5 +62,6 @@ dv.paragraph(dv.current().visual);
 
 **Questions**
 <!-- What remains for you to consider? --> 
-- 
+- question::
+
 

@@ -1,14 +1,14 @@
 ---
-tags: 
-- type/recipe 
-- theme/cooking
-aliases:
+tags:
+  - type/recipe
+  - theme/cooking
+aliases: 
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template_type: Note
-template_version: "1.8"
+template_version: "1.11"
 ---
 
 # <% tp.file.title %>
@@ -24,16 +24,17 @@ template_version: "1.8"
 ## Preparation
 
 
+
 ---
 # Back Matter
 
 **Source**
 <!-- Always keep a link to the source- --> 
-- source::
+- based_on::
 
 **References**
-<!-- Links to pages not referenced in the content. -->
-- 
+<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+- see:: 
 
 **Terms**
 <!-- Links to definition pages. -->
@@ -41,12 +42,13 @@ template_version: "1.8"
 
 **Target**
 <!-- Link to project note or externaly published content. -->
-- 
+- used_in::
 
+---
 **Tasks**
 <!-- What remains to be done with this note? --> 
 - 
 
 **Questions**
 <!-- What remains for you to consider? --> 
-- 
+- question::

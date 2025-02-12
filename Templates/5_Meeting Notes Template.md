@@ -1,13 +1,15 @@
 ---
-tags: 
-- type/meeting
-- theme/xyz
-aliases:
-meeting-date:
-created_at: <% tp.file.creation_date("") %>
+tags:
+  - type/meeting
+  - theme/xyz
+aliases: 
+lead: +++ Lead paragraph goes here +++
+visual: "![[image.jpg]]"
+meeting_date: 
+modified_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template_type: Meeting
-template_version: "1.21"
+template_version: "1.26"
 ---
 
 # <% tp.file.title %>
@@ -49,15 +51,17 @@ template_version: "1.21"
 - Documents to be included in the meeting notes:
 
 
+
 ---
 # Back Matter
+
 **Source**
 <!-- Always keep a link to the source- --> 
-- 
+- based_on::
 
 **References**
-<!-- Links to pages not referenced in the content. -->
-- 
+<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+- see:: 
 
 **Terms**
 <!-- Links to definition pages. -->
@@ -65,12 +69,13 @@ template_version: "1.21"
 
 **Target**
 <!-- Link to project note or externaly published content. -->
-- 
+- used_in::
 
+---
 **Tasks**
 <!-- What remains to be done with this note? --> 
 - 
 
 **Questions**
 <!-- What remains for you to consider? --> 
-- 
+- question::

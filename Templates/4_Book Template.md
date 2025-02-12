@@ -20,7 +20,7 @@ publish_date: {{publishDate}}
 isbn: {{isbn10}} {{isbn13}}
 link: {{link}}
 preview_link: {{preview_link}}
-bibliography: +++ Copy here from Zotero +++
+bibliography: +++ Copy and paste citation from Zotero +++
 rating: 
 date:
 read: 
@@ -28,7 +28,7 @@ status: undefined
 created_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
 modified_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
 template_type: Book
-template_version: "1.18"
+template_version: "1.21"
 ---
 <!-- 
 rating: ⭐️⭐️⭐️    // 1 to 3 stars
@@ -69,11 +69,11 @@ by [[{{author}}]]
 
 **Source**
 <!-- Always keep a link to the source- --> 
-- 
+- based_on::
 
 **References**
-<!-- Links to pages not referenced in the content. -->
-- 
+<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+- see:: 
 
 **Terms**
 <!-- Links to definition pages. -->
@@ -81,8 +81,9 @@ by [[{{author}}]]
 
 **Target**
 <!-- Link to project note or externaly published content. -->
-- 
+- used_in::
 
+---
 **Tasks**
 <!-- What remains to be done with this note? --> 
 - 

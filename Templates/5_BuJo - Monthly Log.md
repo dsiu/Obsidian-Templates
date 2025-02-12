@@ -6,44 +6,40 @@ aliases:
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template_type: BuJo Monthly
-template_version: "1.15"
+template_version: "1.16"
 ---
 
 # <% tp.file.title %>
 
 <!-- Main STRUCTURE of my content -->
-[Monthly Logs 2024](Monthly%20Logs%202024.md) | [[2024]]
+[Monthly Logs 2025](Monthly%20Logs%202025.md) | [[20254]]
 ___
 
-## OKRs
-> Objectives (3-4) & Key Results (1-4)
+### OKRs
+><small>Objectives (3-4) & Key Results (1-4)</small>
 <!-- DataView table, use example and modify -->
-```dataview
-TABLE WITHOUT ID
-	file.link as Objectives
-FROM #okr/objective 
-WHERE status = "active_2024"
-SORT file.name ASC
-```
 
 ```dataview
 TABLE WITHOUT ID
-	file.link as "Key Results"
-FROM #okr/keyresult 
-WHERE status = "active_2024"
-SORT file.name ASC
+	file.link as "<small>[OKRs](OKRs%202023.md)</small>",
+	template_type as "<small>Element</small>"
+WHERE status = "active_2025"
+SORT file.name DESC
 ```
 
-Key Actions | 1+
-
 ___
 
-**Tasks**
+```dataview
+TABLE WITHOUT ID
+	file.link AS "<small>3_Doing - [Kanban](Dataview%20-%20Kanban%20Board.md)</small>",
+	length(file.tasks) AS "<small>Tasks"
+WHERE kanban = "doing" 
+SORT file.ctime ASCENDING
+```
 
-
+### Calendar
 ___
 
-**Calendar**
 . 01
 . 02 
 . 03
@@ -95,5 +91,5 @@ ___
 - 
 
 **References**
-<!-- Links to pages not referenced in the content. -->
-- 
+<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+- see::

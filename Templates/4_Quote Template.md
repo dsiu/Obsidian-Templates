@@ -10,7 +10,7 @@ visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template_type: Quote
-template_version: "1.15"
+template_version: "1.17"
 ---
 
 # <% tp.file.title %>
@@ -31,8 +31,8 @@ template_version: "1.15"
 - based_on::
 
 **References**
-<!-- Links to pages not referenced in the content. -->
-- 
+<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+- see:: 
 
 **Terms**
 <!-- Links to definition pages. -->
@@ -40,8 +40,9 @@ template_version: "1.15"
 
 **Target**
 <!-- Link to project note or externaly published content. -->
-- 
+- used_in::
 
+---
 **Tasks**
 <!-- What remains to be done with this note? --> 
 - 

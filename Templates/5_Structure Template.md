@@ -1,14 +1,14 @@
 ---
-tags: 
-- type/structure
-- structure/xyz
+tags:
+  - type/structure
+  - structure/xyz
 aliases: 
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 created_at: <% tp.file.creation_date("") %>
 modified_at: <% tp.file.creation_date("") %>
 template_type: Structure
-template_version: "1.15"
+template_version: "1.18"
 ---
 
 # <% tp.file.title %>
@@ -19,6 +19,7 @@ template_version: "1.15"
 ```dataviewjs 
 dv.paragraph(dv.current().visual);
 ```
+<small>_Zoom: [[]] | Edit: [[]]_</small>
 
 <!--  Summarized structure from "lead"-key  in properties section -->
 
@@ -29,16 +30,18 @@ dv.paragraph(dv.current().visual);
 - 
 
 
+
+
 ---
 # Back Matter
 
 **Source**
 <!-- Always keep a link to the source- --> 
-- 
+- based_on::
 
 **References**
-<!-- Links to pages not referenced in the content. -->
-- 
+<!-- Links to pages not referenced in the content. see: [[related note]] because <reason> -->
+- see:: 
 
 **Terms**
 <!-- Links to definition pages. -->
@@ -46,12 +49,13 @@ dv.paragraph(dv.current().visual);
 
 **Target**
 <!-- Link to project note or externaly published content. -->
-- 
+- used_in::
 
+---
 **Tasks**
 <!-- What remains to be done with this note? --> 
 - 
 
 **Questions**
 <!-- What remains for you to consider? --> 
-- 
+- question::

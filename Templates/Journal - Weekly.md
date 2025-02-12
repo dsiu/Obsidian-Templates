@@ -3,7 +3,7 @@ tags:
   - type/structure
   - structure/journal
 aliases: 
-created_at: {{monday:YYYY-MM-DD}}
+created_at: {{monday:YYYY-MM-DDTHH:mm:ssZ}}
 modified_at: <% tp.file.creation_date("") %>
 template_type: Journal Weekly
 template_version: "1.4"

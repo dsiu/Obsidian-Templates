@@ -21,7 +21,8 @@ template_version: "1.17"
 >  `= this.quote`
 >  — `= this.author`
 
-<% tp.file.cursor(0) %>
+
+
 
 ---
 # Back Matter

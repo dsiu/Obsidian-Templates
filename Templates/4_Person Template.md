@@ -22,6 +22,8 @@ template_version: "1.20"
 > [!Bio short]
 > `= this.bio_short`
 
+
+
 ## Connections
 <!-- How I connect with this person -->
 - 
@@ -29,6 +31,7 @@ template_version: "1.20"
 ## Notes
 <!-- The main content of my thoughts really -->
 - 
+
 
 ## Quotes
 <!-- Notable quotes with reference to their page or location -->

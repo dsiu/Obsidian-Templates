@@ -26,8 +26,6 @@ dv.paragraph(dv.current().visual);
 > [!Summary]
 > `= this.lead`
 
-<% tp.file.cursor(0) %>
-
 **Details**
 <!-- Main content in body of my note  -->
 - 

@@ -19,8 +19,6 @@ template_version: "1.25"
 > [!Question]
 > `= this.question`
 
-<% tp.file.cursor(0) %>
-
 <!-- Answer the detailed question  -->
 > [!Answer]
 > `= this.lead`

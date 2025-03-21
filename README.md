@@ -52,37 +52,37 @@ Or use it as part of the [Obsidian-Zettelkasten-Starter-Kit](https://github.com/
 You first may have a look at my note examples created from these templates: [EXAMPLES](https://github.com/groepl/Obsidian-Templates/blob/main/EXAMPLES.md).
 
 ### 2_Literature + 3_Permanent Notes
-- [Note Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Note%20Template.md)
-- [Prompt Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Prompt%20Template.md)
-- [Question Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Question%20Template.md)
+- [Note Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Note%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Prompt Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Prompt%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Question Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Question%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 
 ### 4_References
-- [Book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Book%20Template.md) -> needs plugin: [Book Search](https://github.com/anpigon/obsidian-book-search-plugin) 
-- [Person Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Person%20Template.md)
-- [Quote Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Quote%20Template.md)
-- [Recipe Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Recipe%20Template.md)
-- [Term Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Term%20Template.md) -> needs plugin: [Wikipedia](https://github.com/jmilldotdev/obsidian-wikipedia)
-- [Tool Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Tool%20Template.md)
+- [Book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Book%20Template.md) -> needs plugin: [Book Search](https://github.com/anpigon/obsidian-book-search-plugin) + [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Person Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Person%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Quote Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Quote%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Recipe Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Recipe%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Term Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Term%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview) + [Wikipedia](https://github.com/jmilldotdev/obsidian-wikipedia)
+- [Tool Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Tool%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 
 ### 5_Structures
 - [BuJo - Future Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Future%20Log.md)
-- [BuJo - Monthly Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Monthly%20Log.md)
+- [BuJo - Monthly Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Monthly%20Log.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 - [BuJo - Weekly Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Weekly%20Log.md)
 - [BuJo - Daily Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Daily%20Log.md)
 - [Meeting Notes Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_Meeting%20Notes%20Template.md)
-- [OKR Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_OKR%20Template.md)
-- [Structure Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_Structure%20Template.md)
+- [OKR Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_OKR%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Structure Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_Structure%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 
 ### 6_Project Notes
-- [E-book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_E-book%20Template.md) -> needs plugin: [Better Word Count](https://github.com/lukeleppan/better-word-count)
-- [Post Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_Post%20Template.md)
+- [E-book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_E-book%20Template.md) -> needs plugin: [Better Word Count](https://github.com/lukeleppan/better-word-count) + -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Post Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_Post%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 
 ### Template Snippets
 - [Back Matter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Back%20Matter%20Snippet.md)
 - [Book Frontmatter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Book%20Front%20Matter%20Snippet.md)
-- [Dataview Table Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Dataview%20Table%20Snippet.md)
-- [DataviewJS Quote Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_DataviewJS%20Quote%20Snippet.md)
-- [E-book Back Matter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_E-book%20Back%20Matter%20Snippet.md)
+- [Dataview Table Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Dataview%20Table%20Snippet.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [DataviewJS Quote Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_DataviewJS%20Quote%20Snippet.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [E-book Back Matter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_E-book%20Back%20Matter%20Snippet.md) 
 - [Frontmatter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Front%20Matter%20Snippet.md)
 
 
@@ -113,7 +113,7 @@ More about: https://forum.obsidian.md/t/limit-folders-how-do-you-use-zettelkaste
 - [How can I learn more about Obsidian and Zettelkasten?](https://github.com/groepl/Take-Useful-Notes)
 
 ## Creative Commons License
-[Obsidian Templates](https://github.com/groepl/Obsidian-Templates) © 2022-24 by [Edmund Gröpl](https://github.com/groepl) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/.)
+[Obsidian Templates](https://github.com/groepl/Obsidian-Templates) © 2022-25 by [Edmund Gröpl](https://github.com/groepl) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/.)
 
 ## Contact
 Please leave feedback here in the [GitHub discussions](https://github.com/groepl/Obsidian-Templates/discussions) or file a new issue if you found a bug or have a feature request. You can reach me via Mastodon too: [https://darmstadt.social/@groepl](https://darmstadt.social/@groepl)

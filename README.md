@@ -24,7 +24,7 @@ Copy templates to your Obsidian template folder location to make them available 
 
 Or use it as part of the [Obsidian-Zettelkasten-Starter-Kit](https://github.com/groepl/Obsidian-Zettelkasten-Starter-Kit).
 
-### 6 Mandatory Obsidian Plugins
+### Six Mandatory Obsidian Plugins
 - [Book Search](https://github.com/anpigon/obsidian-book-search-plugin) - Easily creates book notes from Google Books API.
 - [DataView](https://github.com/blacksmithgu/obsidian-dataview) - Provides a query language for filtering, sorting, and extracting data from Markdown pages.
 - [Frontmatter Tag Suggest](https://github.com/jmilldotdev/obsidian-frontmatter-tag-suggest) - Autocompletes tags in the YAML frontmatter.
@@ -32,7 +32,7 @@ Or use it as part of the [Obsidian-Zettelkasten-Starter-Kit](https://github.com/
 - [Update Time on Edit](https://github.com/beaussan/update-time-on-edit-obsidian) - Saves the metadata of the file with the time it was updated.
 - [Wikipedia](https://github.com/jmilldotdev/obsidian-wikipedia) - Gets the first section of Wikipedia and pastes it into your active note.
 
-### 11 Optional Obsidian Plugin
+### Eleven Optional Obsidian Plugin
 - [Auto Link Title](https://github.com/zolrath/obsidian-auto-link-title) - Fetches the webpage to extract link titles when they're pasted, creating a markdown link with the correct title set.
 - [Banners](https://github.com/noatpad/obsidian-banners) - Adds banner images to your notes.
 - [Callout Manager](https://github.com/eth-p/obsidian-callout-manager) - Creating and configuring callouts.
@@ -51,18 +51,22 @@ Or use it as part of the [Obsidian-Zettelkasten-Starter-Kit](https://github.com/
 ## List of Templates
 You first may have a look at my note examples created from these templates: [EXAMPLES](https://github.com/groepl/Obsidian-Templates/blob/main/EXAMPLES.md).
 
-### 2_Literature + 3_Permanent Notes
-- [Note Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Note%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
-- [Prompt Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Prompt%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
-- [Question Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Question%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
-
-### 4_References
+### 2_Literature Notes
 - [Book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Book%20Template.md) -> needs plugin: [Book Search](https://github.com/anpigon/obsidian-book-search-plugin) + [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 - [Person Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Person%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 - [Quote Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Quote%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 - [Recipe Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Recipe%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 - [Term Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Term%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview) + [Wikipedia](https://github.com/jmilldotdev/obsidian-wikipedia)
 - [Tool Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/4_Tool%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+
+### 3_Permanent Notes
+- [Note Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Note%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Prompt Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Prompt%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Question Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/3_Question%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+
+### 4_Project Notes
+- [E-book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_E-book%20Template.md) -> needs plugin: [Better Word Count](https://github.com/lukeleppan/better-word-count) + -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
+- [Post Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_Post%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 
 ### 5_Structures
 - [BuJo - Future Log](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_BuJo%20-%20Future%20Log.md)
@@ -72,10 +76,6 @@ You first may have a look at my note examples created from these templates: [EXA
 - [Meeting Notes Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_Meeting%20Notes%20Template.md)
 - [OKR Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_OKR%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 - [Structure Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/5_Structure%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
-
-### 6_Project Notes
-- [E-book Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_E-book%20Template.md) -> needs plugin: [Better Word Count](https://github.com/lukeleppan/better-word-count) + -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
-- [Post Template](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/6_Post%20Template.md) -> needs plugin: [DataView](https://github.com/blacksmithgu/obsidian-dataview)
 
 ### Template Snippets
 - [Back Matter Snippet](https://github.com/groepl/Obsidian-Templates/blob/main/Templates/x_Back%20Matter%20Snippet.md)

@@ -1,10 +1,10 @@
 ---
-tags: 
-- type/structure
-- structure/bujo
-aliases: 
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
+tags:
+  - type/structure
+  - structure/bujo
+aliases:
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: BuJo Weekly
 template_version: "1.16"
 ---

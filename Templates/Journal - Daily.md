@@ -2,9 +2,9 @@
 tags:
   - type/structure
   - structure/journal
-aliases: 
-created_at: <% tp.date.now(tp.file.title) %>
-modified_at: <% tp.file.creation_date("") %>
+aliases:
+created: <% tp.date.now(tp.file.title) %>T00:00:00
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: Journal Daily
 template_version: "1.2"
 ---
@@ -19,7 +19,7 @@ template_version: "1.2"
 ```dataview
 LIST
 FROM ""
-WHERE striptime(created_at) = date(this.file.name) AND file.name != this.file.name
+WHERE striptime(created) = date(this.file.name) AND file.name != this.file.name
 SORT file.mtime DESC
 ```
 
@@ -27,6 +27,6 @@ SORT file.mtime DESC
 ```dataview
 LIST
 FROM ""
-WHERE striptime(modified_at) = date(this.file.name) AND file.name != this.file.name
+WHERE striptime(modified) = date(this.file.name) AND file.name != this.file.name
 SORT file.mtime DESC
 ```

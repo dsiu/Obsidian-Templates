@@ -1,11 +1,11 @@
 ---
-tags: 
-- type/structure 
-- structure/list 
-- structure/bujo
-aliases: 
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
+tags:
+  - type/structure
+  - structure/list
+  - structure/bujo
+aliases:
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 banner: "![[banner_bujo.JPG]]"
 banner_x: 0.5
 template_type: BuJo Future

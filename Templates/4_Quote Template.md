@@ -1,14 +1,14 @@
 ---
-tags: 
+tags:
 - type/quote
 - theme/xyz
-aliases: 
-quote: 
+aliases:
+quote:
 author:
 year:
 visual: "![[image.jpg]]"
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: Quote
 template_version: "1.17"
 ---

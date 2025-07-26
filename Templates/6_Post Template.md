@@ -1,8 +1,8 @@
 ---
-tags: 
-- type/post 
+tags:
+- type/post
 - theme/xyz
-- target/linkedin 
+- target/linkedin
 - target/forumobsidian
 - target/forumzettelkasten
 - target/reddit
@@ -12,8 +12,8 @@ lead: +++ Lead paragraph goes here +++
 published:
 views: 0
 feedbacks: 0
-created: <% tp.file.creation_date("") %>
-modified: <% tp.file.creation_date("") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: "Post"
 template_version: "1.27"
 ---

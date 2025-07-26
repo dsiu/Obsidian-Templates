@@ -1,8 +1,8 @@
 ---
-tags: 
+tags:
 - type/book
 - theme/xyz
-aliases: 
+aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 title: "{{title}}"
@@ -11,7 +11,7 @@ author: "[[{{author}}]]"
 authors: <%=book.authors.map(author=>`\n  - "[[${author}]]"`).join('')%>
 category: {{category}}
 categories: {{categories}}
-description: 
+description:
 publisher: {{publisher}}
 total_page: {{totalPage}}
 cover_url: {{coverUrl}}
@@ -21,12 +21,12 @@ isbn: {{isbn10}} {{isbn13}}
 link: {{link}}
 preview_link: {{preview_link}}
 bibliography: +++ Copy and paste citation from Zotero +++
-rating: 
+rating:
 date:
-read: 
+read:
 status: undefined
-created_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
-modified_at: {{DATE:YYYY-MM-DDTHH:mm:ss}}
+created: {{DATE:YYYY-MM-DDTHH:mm:ss}}
+modified: {{DATE:YYYY-MM-DDTHH:mm:ss}}
 template_type: Book
 template_version: "1.21"
 ---

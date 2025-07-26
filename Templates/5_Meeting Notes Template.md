@@ -2,12 +2,12 @@
 tags:
   - type/meeting
   - theme/xyz
-aliases: 
+aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
-meeting_date: 
-modified_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
+meeting_date:
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: Meeting
 template_version: "1.26"
 ---

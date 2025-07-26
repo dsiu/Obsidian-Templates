@@ -1,8 +1,8 @@
 ---
-tags: 
-- type/chapter 
-- theme/xyz
-- target/ebook 
+tags:
+  - type/chapter
+  - theme/xyz
+  - target/ebook
 aliases:
 visual: "![[IMGAGE.png]]"
 title_short: "e1"
@@ -13,8 +13,8 @@ book_version: 0.19
 status: draft
 word_count: 0
 bar: <progress max=100 value=0></progress><br>0% first ideas
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 published:
 views: 0
 feedbacks: 0

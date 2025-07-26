@@ -2,9 +2,9 @@
 tags:
   - type/structure
   - structure/journal
-aliases: 
-created_at: <% tp.date.now(tp.file.title + "-01T00:00:00Z") %>
-modified_at: <% tp.file.creation_date("") %>
+aliases:
+created: <% tp.date.now(tp.file.title + "-01T00:00:00Z") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: Journal Monthly
 template_version: "1.0"
 ---

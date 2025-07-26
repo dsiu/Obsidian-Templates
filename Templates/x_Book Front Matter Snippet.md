@@ -2,32 +2,32 @@
 tags:
   - type/book
   - theme/xyz
-aliases: 
+aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
-title: 
-subtitle: 
-author: 
-authors: 
-category: 
-publisher: 
-publish_date: 
-total_page: 
-isbn: 
-cover_url: 
-cover_small_url: 
-isbn13: 
-isbn10: 
-description: 
-link: 
-preview_link: 
+title:
+subtitle:
+author:
+authors:
+category:
+publisher:
+publish_date:
+total_page:
+isbn:
+cover_url:
+cover_small_url:
+isbn13:
+isbn10:
+description:
+link:
+preview_link:
 bibliography: +++ Copy here from Zotero +++
-rating: 
-date: 
-read: 
+rating:
+date:
+read:
 status: undefined
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: Book
 template_version: "1.16"
 ---

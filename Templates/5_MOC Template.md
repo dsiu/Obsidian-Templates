@@ -2,12 +2,12 @@
 tags:
   - type/structure
   - structure/moc
-aliases: 
+aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 theme_tag: ""
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: MOC
 template_version: "1.2"
 ---
@@ -24,7 +24,7 @@ template_version: "1.2"
 list
 from #theme and "Readwise"
 where contains(file.etags, this.theme_tag)
-sort modified_at desc
+sort modified desc
 ```
 
 ### Terms
@@ -40,7 +40,7 @@ sort file.name
 table join(sort(file.etags), " ") as tags
 from #theme and -(#type/term OR "Readwise")
 where contains(file.etags, this.theme_tag)
-sort modified_at desc
+sort modified desc
 ```
 
 ---

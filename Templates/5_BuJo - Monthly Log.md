@@ -1,10 +1,10 @@
 ---
-tags: 
-- type/structure
-- structure/bujo
-aliases: 
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
+tags:
+  - type/structure
+  - structure/bujo
+aliases:
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: BuJo Monthly
 template_version: "1.16"
 ---
@@ -33,7 +33,7 @@ ___
 TABLE WITHOUT ID
 	file.link AS "<small>3_Doing - [Kanban](Dataview%20-%20Kanban%20Board.md)</small>",
 	length(file.tasks) AS "<small>Tasks"
-WHERE kanban = "doing" 
+WHERE kanban = "doing"
 SORT file.ctime ASCENDING
 ```
 
@@ -41,7 +41,7 @@ ___
 
 ### Calendar
 . 01
-. 02 
+. 02
 . 03
 . 04
 . 05
@@ -57,7 +57,7 @@ ___
 . 15
 . 16
 . 17
-. 18 
+. 18
 . 19
 . 20
 . 21
@@ -65,7 +65,7 @@ ___
 . 23
 . 24
 . 25
-. 26 
+. 26
 . 27
 . 28
 . 29

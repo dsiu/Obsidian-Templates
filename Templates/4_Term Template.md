@@ -2,12 +2,12 @@
 tags:
   - type/term
   - theme/xyz
-aliases: 
+aliases:
 lead: +++ Term definition goes here +++
 source: +++ source undefined +++
 visual: "![[image.jpg]]"
-created_at: <% tp.file.creation_date("") %>
-modified_at: <% tp.file.creation_date("") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: Term
 template_version: "1.22"
 ---
@@ -17,7 +17,7 @@ template_version: "1.22"
 
 <!-- A supporting visual from front matter if available -->
 
-```dataviewjs 
+```dataviewjs
 dv.paragraph(dv.current().visual);
 ```
 

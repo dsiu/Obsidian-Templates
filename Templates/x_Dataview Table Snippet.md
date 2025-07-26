@@ -49,6 +49,6 @@ More about:
 https://github.com/blacksmithgu/obsidian-dataview/blob/master/docs/docs/queries/query-types.md
 https://github.com/blacksmithgu/obsidian-dataview/blob/master/docs/docs/queries/data-commands.md
 
-Source: 
+Source:
 https://github.com/groepl/Obsidian-Templates
 -->

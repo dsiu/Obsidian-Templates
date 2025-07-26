@@ -2,9 +2,9 @@
 tags:
   - type/structure
   - structure/journal
-aliases: 
-created_at: {{monday:YYYY-MM-DDTHH:mm:ssZ}}
-modified_at: <% tp.file.creation_date("") %>
+aliases:
+created: {{monday:YYYY-MM-DDTHH:mm:ssZ}}
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: Journal Weekly
 template_version: "1.4"
 ---
@@ -26,8 +26,8 @@ template_version: "1.4"
 ```dataview
 LIST rows.file.link
 FROM -"0_Journal"
-WHERE created_at.year = number(substring(this.file.name,0,4)) AND created_at.weekyear =  number(substring(this.file.name,6,8))
-FLATTEN dateformat(striptime(created_at), "ccc | yyyy-MM-dd") as G
+WHERE created.year = number(substring(this.file.name,0,4)) AND created.weekyear =  number(substring(this.file.name,6,8))
+FLATTEN dateformat(striptime(created), "ccc | yyyy-MM-dd") as G
 GROUP BY G
 SORT default(((x) => {
 	"Mon":1,
@@ -44,8 +44,8 @@ SORT default(((x) => {
 ```dataview
 LIST rows.file.link
 FROM -"0_Journal"
-WHERE modified_at.year = number(substring(this.file.name,0,4)) AND modified_at.weekyear =  number(substring(this.file.name,6,8))
-FLATTEN dateformat(striptime(modified_at), "ccc | yyyy-MM-dd") as G
+WHERE modified.year = number(substring(this.file.name,0,4)) AND modified.weekyear =  number(substring(this.file.name,6,8))
+FLATTEN dateformat(striptime(modified), "ccc | yyyy-MM-dd") as G
 GROUP BY G
 SORT default(((x) => {
 	"Mon":1,

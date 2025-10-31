@@ -1,8 +1,8 @@
 ---
 tags:
 - type/person
-- theme/xyz
 - role/xyz
+- theme/xyz
 aliases:
 birthday:
 bio_short:

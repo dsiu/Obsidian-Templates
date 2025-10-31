@@ -6,7 +6,7 @@ aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
 meeting_date:
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: Meeting
 template_version: "1.26"

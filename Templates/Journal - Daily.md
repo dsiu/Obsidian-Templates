@@ -4,9 +4,9 @@ tags:
   - structure/journal
 aliases:
 created: <% tp.date.now(tp.file.title) %>T00:00:00
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+modified: <% tp.date.now(tp.file.title) %>T00:00:00
 template_type: Journal Daily
-template_version: "1.2"
+template_version: "1.3"
 ---
 # <% tp.file.title %>
 ## Notes
@@ -15,18 +15,8 @@ template_version: "1.2"
 --- 
 # Back Matter
 
-**Notes created today**
-```dataview
-LIST
-FROM ""
-WHERE striptime(created) = date(this.file.name) AND file.name != this.file.name
-SORT file.mtime DESC
-```
+![[Daily.base#Notes Linked]]
 
-**Notes modified today**
-```dataview
-LIST
-FROM ""
-WHERE striptime(modified) = date(this.file.name) AND file.name != this.file.name
-SORT file.mtime DESC
-```
+![[Daily.base#Notes Created]]
+
+![[Daily.base#Notes Modified]]

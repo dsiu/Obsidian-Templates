@@ -3,8 +3,8 @@ tags:
   - type/structure
   - structure/journal
 aliases:
-created: <% tp.date.now(tp.file.title + "-01T00:00:00Z") %>
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
+created: <% tp.date.now(tp.file.title + "-01T00:00:00") %>
+modified: <% tp.date.now(tp.file.title + "-01T00:00:00") %>
 template_type: Journal Monthly
 template_version: "1.0"
 ---

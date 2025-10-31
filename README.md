@@ -110,6 +110,9 @@ More about: https://forum.obsidian.md/t/limit-folders-how-do-you-use-zettelkaste
 <img src="/Visuals/Zettelkasten-Canvas_2025-07-23.png" width="700" />
 More about: https://forum.obsidian.md/t/12-principles-for-using-zettelkasten/51679/13
 
+## The Minimalist's Zettelkasten
+The provided [podcast from NotebookLM](https://github.com/groepl/Obsidian-Templates/blob/main/Assets/The_Hidden_Cost_of_Over-Collecting__Minimalism_and_the_Three_Co.m4a) consists of excerpts from a book titled "The Minimalist’s Zettelkasten: Think Better with Less," authored by Edmund Gröpl and independently published in 2025. 
+
 ## FAQ
 - [Where can I discuss my own experiences with these templates?](https://forum.obsidian.md/t/16-obsidian-templates-for-zettelkasten-to-start-with/)
 - [What are the rules for using Properties with YAML Frontmatter?](https://help.obsidian.md/Editing+and+formatting/Properties)

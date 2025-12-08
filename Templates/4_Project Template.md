@@ -1,29 +1,30 @@
 ---
 tags:
-- type/quote
-- theme/xyz
+  - type/note
+  - type/project
+  - theme/xyz
 aliases:
-quote:
-author:
-year:
+lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
+status: undefined
+started: "[[<% tp.file.creation_date("YYYY-MM-DD") %>]]"
+completed: "[[]]"
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
-template_type: Quote
-template_version: "1.17"
+template_type: Project
+template_version: "0.1"
 ---
 
 # <% tp.file.title %>
+<!--  Clear and descriptive title -->
 
-<!-- Quote and author from frontmatter goes here. Also used for Dataview list of quotes. -->
+<!--  Most essential idea from "lead"-key  in properties section -->
 
-> [!QUOTE]
->  `= this.quote`
->  
->  — `= this.author`
+> [!Summary]
+> `= this.lead`
 
-
-
+ ## Project Files
+![[_4_Project.base#Project Files]]
 
 ---
 # Back Matter
@@ -51,4 +52,6 @@ template_version: "1.17"
 
 **Questions**
 <!-- What remains for you to consider? --> 
-- 
+- question::
+
+

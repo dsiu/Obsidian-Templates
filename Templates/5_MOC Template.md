@@ -6,11 +6,10 @@ tags:
 aliases:
 lead: +++ Lead paragraph goes here +++
 visual: "![[image.jpg]]"
-theme_tag: "#theme/xyz"
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ss") %>
 template_type: MOC
-template_version: "1.4"
+template_version: "1.5"
 cssclasses:
   - wide
 ---

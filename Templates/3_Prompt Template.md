@@ -2,7 +2,7 @@
 tags:
 - type/prompt
 - theme/xyz
-- source/chatgpt
+- source/ai
 aliases:
 question: +++ Question goes here +++
 lead: +++ Lead paragraph goes here +++
